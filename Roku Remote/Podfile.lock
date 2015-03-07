@@ -1,0 +1,13 @@
+PODS:
+  - CocoaAsyncSocket (7.4.1)
+  - CocoaSSDP (0.1.0):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - CocoaSSDP (~> 0.1)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b0a1a89e7ea4c1c0ea4ec83f57d55117d3cdae06
+  CocoaSSDP: 2ad6688b1475da6860651c2e0b43a102e8cd4b46
+
+COCOAPODS: 0.35.0
