@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Roku Remote-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Roku Remote-CocoaAsyncSocket.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>18393E709923AB1B26D79EC3</key>
+		<key>3346C78C7FC3866280B452C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DCC95D91C42DDDA6B7EDF68</key>
+		<key>5058CED3F318C62D60D29D57</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C53F2BC405D9064136F83B57</key>
+		<key>A8DC9E6AC890682567DCA8E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B634845FD342AC705EFD4C49</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -19,6 +19,13 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
 
+    NSMutableDictionary *parentDictionary = [NSMutableDictionary new];
+    [parentDictionary setValue:@"send_home_key" forKey:@"event"];
+    
+    [InterfaceController openParentApplication:[NSDictionary dictionaryWithDictionary:parentDictionary] reply:^(NSDictionary *repliedDict, NSError *error){
+        
+    }];
+    
     // Configure interface objects here.
 }
 
@@ -30,6 +37,7 @@
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
+
 }
 
 @end

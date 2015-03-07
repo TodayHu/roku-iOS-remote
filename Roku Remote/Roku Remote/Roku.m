@@ -7,11 +7,16 @@
 //
 
 #import "Roku.h"
+#import "AFNetworking.h"
+
+// Roku Routes
+#define kRokuKeyPressURLRoute   @"keypress"
 
 @interface Roku ()
 
 @property (nonatomic, strong) NSURL *rokuURL;
 @property (nonatomic, assign) NSUInteger rokuPort;
+@property (nonatomic, strong) AFHTTPRequestOperationManager *requestManager;
 
 @end
 
@@ -26,15 +31,33 @@
     {
         instance.rokuURL = url;
         instance.rokuPort = port;
+        instance.requestManager = [AFHTTPRequestOperationManager manager];
     }
     return instance;
 }
 
+#pragma mark - Public
+
+- (NSURL *)rokuURL
+{
+    return _rokuURL;
+}
 
 #pragma mark - Roku API Implementation
 
 - (BOOL)sendKeyEvent:(NSString *)keyEvent
 {
+    // Build GET request string
+    
+    NSString *getRequestURL = [NSString stringWithFormat:@"%@%@/%@", self.rokuURL, kRokuKeyPressURLRoute, keyEvent];
+    
+    [self.requestManager POST:getRequestURL parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject)
+    {
+        NSLog(@"Sent keypress: %@", keyEvent);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error)
+    {
+        NSLog(@"Error : %@", error);
+    }];
     
     return true;
 }

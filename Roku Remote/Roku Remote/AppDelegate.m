@@ -7,34 +7,38 @@
 //
 
 #import "AppDelegate.h"
-#import "RokuDiscovery.h"
+#import "ViewController.h"
 
-@interface AppDelegate () <RokuDiscoveryDelegate>
+#import "RokuController.h"
 
-@property (nonatomic, strong) RokuDiscovery *rokuDiscovery;
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) RokuController *rokuController;
 
 @end
 
 @implementation AppDelegate
 
-- (void)didFindNewRoku
-{
-    NSLog(@"Roku found %@", [self.rokuDiscovery devices]);
-}
-
-- (void)rokuDisappeared
-{
-    NSLog(@"Roku lost %@", [self.rokuDiscovery devices]);
-}
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    _rokuDiscovery = [RokuDiscovery startDiscoveryWithDelegate:self];
+    _rokuController = [[RokuController alloc] init];
     
-    // Override point for customization after application launch.
+    ViewController* mainController = (ViewController*)self.window.rootViewController;
+
+    [mainController setRokuController:self.rokuController];
+    
     return YES;
+}
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo
+              reply:(void (^)(NSDictionary *))reply
+
+
+{
+    [self.rokuController handleActionRequestFromWatch:userInfo withHandler:reply];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

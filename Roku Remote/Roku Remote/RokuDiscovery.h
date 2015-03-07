@@ -24,6 +24,6 @@
 + (instancetype)startDiscoveryWithDelegate:(id<RokuDiscoveryDelegate>)delegate;
 
 // Return an array of Roku objects
-- (NSSet *)devices;
+- (NSArray *)devices;
 
 @end
