@@ -7,15 +7,32 @@
 //
 
 #import "AppDelegate.h"
+#import "RokuDiscovery.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <RokuDiscoveryDelegate>
+
+@property (nonatomic, strong) RokuDiscovery *rokuDiscovery;
 
 @end
 
 @implementation AppDelegate
 
+- (void)didFindNewRoku
+{
+    NSLog(@"Roku found %@", [self.rokuDiscovery devices]);
+}
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (void)rokuDisappeared
+{
+    NSLog(@"Roku lost %@", [self.rokuDiscovery devices]);
+}
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+    _rokuDiscovery = [RokuDiscovery startDiscoveryWithDelegate:self];
+    
     // Override point for customization after application launch.
     return YES;
 }
