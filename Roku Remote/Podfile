@@ -5,6 +5,9 @@ target 'Roku Remote' do
 
 pod 'CocoaSSDP', '~> 0.1'
 
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+
 end
 
 target 'Roku RemoteTests' do

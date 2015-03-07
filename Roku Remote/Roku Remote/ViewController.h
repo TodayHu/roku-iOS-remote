@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class RokuController;
+
 @interface ViewController : UIViewController
 
+- (void)setRokuController:(RokuController *)controller;
 
 @end
 

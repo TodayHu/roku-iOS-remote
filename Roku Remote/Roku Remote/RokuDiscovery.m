@@ -17,7 +17,7 @@
 
 @property (nonatomic, strong) SSDPServiceBrowser *SSDPBrowser;
 
-@property (nonatomic, strong) NSMutableSet *avaliableRokus;
+@property (nonatomic, strong) NSMutableArray *avaliableRokus;
 
 @end
 
@@ -30,7 +30,7 @@
     if (instance)
     {
         instance.delegate = delegate;
-        instance.avaliableRokus = [[NSMutableSet alloc] init];
+        instance.avaliableRokus = [[NSMutableArray alloc] init];
         
         [instance startDiscovery];
     }
@@ -80,7 +80,7 @@
 
 #pragma mark - Public
 
-- (NSSet *)devices
+- (NSArray *)devices
 {
     return self.avaliableRokus;
 }
@@ -89,7 +89,7 @@
 
 - (BOOL)hasNewlyFoundRokuAlreadyBeenFound:(Roku *)foundRoku
 {
-    for (Roku *roku in [self.avaliableRokus allObjects])
+    for (Roku *roku in self.avaliableRokus)
     {
         if ([roku isEqual:foundRoku])
         {

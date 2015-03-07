@@ -10,9 +10,14 @@
 
 @class Roku;
 
+typedef void (^watchRequestHandler)(NSDictionary*);
+
 @interface RokuController : NSObject
 
-- (Roku *)selectedRoku;
+- (Roku *)currentRoku;
 
+- (void)setRokuAsDefaultRoku:(Roku *)roku;
+
+- (void)handleActionRequestFromWatch:(NSDictionary *)request withHandler:(void (^)(NSDictionary *))handler;
 
 @end

@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "RokuDiscovery.h"
+#import "RokuController.h"
+#import "Roku.h"
 
-@interface ViewController ()
+@interface ViewController () <RokuDiscoveryDelegate>
+
+@property (nonatomic, strong) RokuController *rokuController;
+@property (nonatomic, strong) RokuDiscovery *rokuDiscovery;
 
 @end
 
@@ -16,12 +22,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _rokuDiscovery = [RokuDiscovery startDiscoveryWithDelegate:self];
+    
 }
 
+#pragma mark - Public setters
+- (void)setRokuController:(RokuController *)controller
+{
+    _rokuController = controller;
+}
+
+
+#pragma mark - RokuDiscoveryDelegate
+
+- (void)didFindNewRoku
+{
+    NSLog(@"Roku found %@", [self.rokuDiscovery devices]);
+    Roku *roku = [[self.rokuDiscovery devices] objectAtIndex:0];
+    [self.rokuController setRokuAsDefaultRoku:roku];
+
+}
+
+- (void)rokuDisappeared
+{
+    NSLog(@"Roku lost %@", [self.rokuDiscovery devices]);
+}
+
+
+#pragma mark - Private
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

@@ -7,7 +7,75 @@
 //
 
 #import "RokuController.h"
+#import "Roku.h"
+
+#import "NSURL+Roku.h"
+
+#define kPersistantRokuURLKey @"kPersistantRokuURLKey"
+
+@interface RokuController ()
+
+@property (nonatomic, strong) Roku *connectedRoku;
+
+@end
+
 
 @implementation RokuController
+
+- (instancetype)init
+{
+    self = [super init];
+    
+    if (self)
+    {
+        [self reviveLastRoku];
+    }
+    return self;
+}
+
+
+#pragma mark - Public
+
+- (Roku *)currentRoku
+{
+    return self.connectedRoku;
+}
+
+- (void)handleActionRequestFromWatch:(NSDictionary *)request withHandler:(void (^)(NSDictionary *))handler;
+{
+    NSDictionary *response = [NSDictionary dictionaryWithObject:@"YES" forKey:@"YES"];
+    handler(response);
+}
+
+#pragma mark - Private
+
+- (void)setRokuAsDefaultRoku:(Roku *)roku
+{
+    if (roku)
+    {
+        NSURL *rokuURL = [roku rokuURL];
+        
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setObject:[rokuURL dictionaryRepresentation] forKey:kPersistantRokuURLKey];
+        [defaults synchronize];
+        
+        self.connectedRoku = roku;
+    }
+}
+
+- (void)reviveLastRoku
+{
+    // Check for previous roku
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSURL *roku = [NSURL urlFromDictionary:[defaults objectForKey:kPersistantRokuURLKey]];
+    
+    if (roku)
+    {
+        Roku *persistedRoku = [Roku rokuWithURL:roku port:[roku.port integerValue]];
+        NSLog(@"Roku %@", persistedRoku);
+        [self setRokuAsDefaultRoku:persistedRoku];
+    }
+}
 
 @end

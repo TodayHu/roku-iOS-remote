@@ -52,6 +52,14 @@
 - (void)showRemoteInterface
 {
     NSLog(@"Showing remote interface");
+    
+    NSMutableDictionary *parentDictionary = [NSMutableDictionary new];
+    [parentDictionary setValue:@"send_home_key" forKey:@"event"];
+    
+    [RokuBaseInterfaceController openParentApplication:[NSDictionary dictionaryWithDictionary:parentDictionary] reply:^(NSDictionary *repliedDict, NSError *error){
+        NSLog(@"Reply dict %@", repliedDict);
+        
+    }];
 }
 
 - (void)showAppSelectionInterface

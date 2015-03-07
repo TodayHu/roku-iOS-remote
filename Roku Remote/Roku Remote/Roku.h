@@ -9,25 +9,21 @@
 #import <Foundation/Foundation.h>
 
 // Roku Keypress definitions
-#define kRokuKeyHome            @"Home"
-#define kRokuKeyRev             @"Rev"
-#define kRokuKeyFwd             @"Fwd"
-#define kRokuKeyPlay            @"Play"
-#define kRokuKeySelect          @"Select"
-#define kRokuKeyLeft            @"Left"
-#define kRokuKeyRight           @"Right"
-#define kRokuKeyDown            @"Down"
-#define kRokuKeyUp              @"Up"
-#define kRokuKeyBack            @"Back"
-#define kRokuKeyInstantReplay   @"InstantReplay"
-#define kRokuKeyInfo            @"Info"
-#define kRokuKeyBackspace       @"Backspace"
-#define kRokuKeySearch          @"Search"
-#define kRokuKeyEnter           @"Enter"
-
-
-// Roku Routes
-#define kRokuKeyPressURLRoute   @"keypress"
+#define kRokuKeyHome            @"home"
+#define kRokuKeyRev             @"rev"
+#define kRokuKeyFwd             @"fwd"
+#define kRokuKeyPlay            @"play"
+#define kRokuKeySelect          @"select"
+#define kRokuKeyLeft            @"left"
+#define kRokuKeyRight           @"right"
+#define kRokuKeyDown            @"down"
+#define kRokuKeyUp              @"up"
+#define kRokuKeyBack            @"back"
+#define kRokuKeyInstantReplay   @"instantReplay"
+#define kRokuKeyInfo            @"info"
+#define kRokuKeyBackspace       @"backspace"
+#define kRokuKeySearch          @"search"
+#define kRokuKeyEnter           @"enter"
 
 
 @interface Roku : NSObject
@@ -35,5 +31,7 @@
 + (instancetype)rokuWithURL:(NSURL *)url port:(NSUInteger)port;
 
 - (BOOL)sendKeyEvent:(NSString *)keyEvent;
+
+- (NSURL *)rokuURL;
 
 @end
