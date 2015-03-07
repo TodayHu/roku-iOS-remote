@@ -18,6 +18,9 @@
 
 #define kResponseTypeApplication    @"kResponseTypeApplication"
 
+#define kRequestTypeLaunchApp       @"kRequestTypeLaunchApp"
+#define kAppIDKey                   @"kAppIDKey"
+
 
 @interface RokuController ()
 
@@ -56,9 +59,24 @@
     {
         [self handleApplicationRequestFromWatchWithHandler:handler];
     }
+    
+    if ([requestType isEqualToString:kRequestTypeLaunchApp])
+    {
+        [self launchApplicationFromIdentifier:[[request objectForKey:kAppIDKey] intValue]];
+    }
 }
 
 #pragma mark - Watch Interface API
+
+- (void)launchApplicationFromIdentifier:(NSUInteger)identifier
+{
+    for (RokuApp *app in self.rokuApplications) {
+        if (app.appID == identifier)
+        {
+            [self.currentRoku launchApp:app];
+        }
+    }
+}
 
 - (void)handleApplicationRequestFromWatchWithHandler:(void (^)(NSDictionary *))handler
 {

@@ -15,6 +15,7 @@
 // Roku Routes
 #define kRokuKeyPressURLRoute   @"keypress"
 #define kRokuApplicationQuery   @"query/apps"
+#define kRokuApplicationLaunch  @"launch/"
 
 // Dictionary Keys
 #define kAppArrayKey        @"app"
@@ -86,6 +87,18 @@
          
          handler([NSArray new]);
      }];
+}
+
+- (void)launchApp:(RokuApp *)app
+{
+    NSString *getRequestURL = [NSString stringWithFormat:@"%@%@/%lu", self.rokuURL, kRokuApplicationLaunch, (unsigned long)app.appID];
+    
+    [self.requestManager POST:getRequestURL parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+     } failure:^(AFHTTPRequestOperation *operation, NSError *error)
+     {
+     }];
+    
 }
 
 - (BOOL)sendKeyEvent:(NSString *)keyEvent

@@ -28,6 +28,7 @@
 typedef void (^applicationsLoadedHandler)(NSArray *);
 
 @class RokuController;
+@class RokuApp;
 
 @interface Roku : NSObject
 
@@ -36,6 +37,7 @@ typedef void (^applicationsLoadedHandler)(NSArray *);
 - (void)getApplicationsFromRokuWith:(RokuController *)controller
                          andHandler:(applicationsLoadedHandler)handler;
 - (BOOL)sendKeyEvent:(NSString *)keyEvent;
+- (void)launchApp:(RokuApp *)app;
 
 - (NSURL *)rokuURL;
 

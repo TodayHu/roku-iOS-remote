@@ -16,6 +16,10 @@
 #define kResponseTypeKey            @"response_type"
 #define kResponseDataKey            @"response_data"
 #define kRequestTypeApplications    @"kRequestTypeApplications"
+
+#define kRequestTypeLaunchApp       @"kRequestTypeLaunchApp"
+#define kAppIDKey                   @"kAppIDKey"
+
 #define kResponseTypeApplication    @"kResponseTypeApplication"
 
 @interface AppInterfaceController()
@@ -83,6 +87,21 @@
      }];
 }
 
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex
+{
+    RokuApp *appAtIndex = [self.applications objectAtIndex:rowIndex];
+    
+    NSDictionary *requestDictionary = [NSDictionary dictionaryWithObjectsAndKeys:kRequestTypeLaunchApp, kRequestTypeKey, [NSNumber numberWithInteger:appAtIndex.appID], kAppIDKey, nil];
+    
+    NSLog(@"request %@", requestDictionary);
+    
+    
+    [WKInterfaceController openParentApplication:requestDictionary reply:^(NSDictionary *responseDict, NSError *error) {
+       
+    }];
+    
+    [self dismissController];
+}
 
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
