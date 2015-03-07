@@ -8,14 +8,21 @@
 
 #import "RokuController.h"
 #import "Roku.h"
+#import "RokuApp.h"
 
 #import "NSURL+Roku.h"
 
-#define kPersistantRokuURLKey @"kPersistantRokuURLKey"
+#define kPersistantRokuURLKey       @"kPersistantRokuURLKey"
+#define kRequestTypeKey             @"kRequestTypeKey"
+#define kRequestTypeApplications    @"kRequestTypeApplications"
+
+#define kResponseTypeApplication    @"kResponseTypeApplication"
+
 
 @interface RokuController ()
 
 @property (nonatomic, strong) Roku *connectedRoku;
+@property (nonatomic, strong) NSArray *rokuApplications;
 
 @end
 
@@ -43,8 +50,45 @@
 
 - (void)handleActionRequestFromWatch:(NSDictionary *)request withHandler:(void (^)(NSDictionary *))handler;
 {
-    NSDictionary *response = [NSDictionary dictionaryWithObject:@"YES" forKey:@"YES"];
-    handler(response);
+    NSString *requestType = [request objectForKey:kRequestTypeKey];
+    
+    if ([requestType isEqualToString:kRequestTypeApplications])
+    {
+        [self handleApplicationRequestFromWatchWithHandler:handler];
+    }
+}
+
+#pragma mark - Watch Interface API
+
+- (void)handleApplicationRequestFromWatchWithHandler:(void (^)(NSDictionary *))handler
+{
+    [self getRokuApplicationsWithCompletionHandler:^() {
+        
+        NSMutableArray *archivedApps = [NSMutableArray new];
+        
+        for (RokuApp *app in self.rokuApplications)
+        {
+            NSData *appArchivedData = [NSKeyedArchiver archivedDataWithRootObject:app];
+            [archivedApps addObject:appArchivedData];
+        }
+        
+        handler([NSDictionary dictionaryWithObjectsAndKeys: kResponseTypeApplication, @"response_type",
+                                                            [NSArray arrayWithArray:archivedApps], @"response_data", nil]);
+    }];
+}
+
+
+- (void)getRokuApplicationsWithCompletionHandler:(applicationsFetchedHandler)handler
+{
+    [self.currentRoku getApplicationsFromRokuWith:self andHandler:^(NSArray *applications) {
+        _rokuApplications = applications;
+        handler();
+    }];
+}
+
+- (NSArray *)applications
+{
+    return self.rokuApplications;
 }
 
 #pragma mark - Private
@@ -73,7 +117,7 @@
     if (roku)
     {
         Roku *persistedRoku = [Roku rokuWithURL:roku port:[roku.port integerValue]];
-        NSLog(@"Roku %@", persistedRoku);
+        
         [self setRokuAsDefaultRoku:persistedRoku];
     }
 }

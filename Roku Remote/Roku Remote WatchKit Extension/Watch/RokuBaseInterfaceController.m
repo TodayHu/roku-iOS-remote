@@ -7,18 +7,23 @@
 //
 
 #import "RokuBaseInterfaceController.h"
-
+#import "AppInterfaceController.h"
 
 @interface RokuBaseInterfaceController()
 
+@property (nonatomic, strong) id context;
 
 @end
 
 
 @implementation RokuBaseInterfaceController
 
-- (void)awakeWithContext:(id)context {
+- (void)awakeWithContext:(id)context
+{
     [super awakeWithContext:context];
+    
+    
+    _context = context;
     
     [self constructContextMenu];
     
@@ -51,20 +56,12 @@
 
 - (void)showRemoteInterface
 {
-    NSLog(@"Showing remote interface");
-    
-    NSMutableDictionary *parentDictionary = [NSMutableDictionary new];
-    [parentDictionary setValue:@"send_home_key" forKey:@"event"];
-    
-    [RokuBaseInterfaceController openParentApplication:[NSDictionary dictionaryWithDictionary:parentDictionary] reply:^(NSDictionary *repliedDict, NSError *error){
-        NSLog(@"Reply dict %@", repliedDict);
-        
-    }];
+
 }
 
 - (void)showAppSelectionInterface
 {
-    
+    [self presentControllerWithName:@"AppInterfaceController" context:nil];
 }
 
 - (void)showSettingsInterface

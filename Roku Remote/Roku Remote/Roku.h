@@ -25,11 +25,16 @@
 #define kRokuKeySearch          @"search"
 #define kRokuKeyEnter           @"enter"
 
+typedef void (^applicationsLoadedHandler)(NSArray *);
+
+@class RokuController;
 
 @interface Roku : NSObject
 
 + (instancetype)rokuWithURL:(NSURL *)url port:(NSUInteger)port;
 
+- (void)getApplicationsFromRokuWith:(RokuController *)controller
+                         andHandler:(applicationsLoadedHandler)handler;
 - (BOOL)sendKeyEvent:(NSString *)keyEvent;
 
 - (NSURL *)rokuURL;

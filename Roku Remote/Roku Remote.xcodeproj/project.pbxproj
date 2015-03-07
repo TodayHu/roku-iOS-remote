@@ -17,8 +17,10 @@
 		BD5F6D541AAAA7AA006324DC /* RokuBaseInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D531AAAA7AA006324DC /* RokuBaseInterfaceController.m */; };
 		BD5F6D581AAAB3D8006324DC /* RokuDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D571AAAB3D8006324DC /* RokuDiscovery.m */; };
 		BD5F6D5D1AAAB439006324DC /* Roku.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D5C1AAAB439006324DC /* Roku.m */; };
-		BD5F6D601AAAB80F006324DC /* RokuApps.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D5F1AAAB80F006324DC /* RokuApps.m */; };
+		BD5F6D601AAAB80F006324DC /* RokuApp.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D5F1AAAB80F006324DC /* RokuApp.m */; };
 		BD5F6D641AAABE42006324DC /* RokuController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D631AAABE42006324DC /* RokuController.m */; };
+		BD86D1961AAB6905005FD6EA /* RokuApp.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F6D5F1AAAB80F006324DC /* RokuApp.m */; };
+		BD86D1991AAB7438005FD6EA /* AppInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86D1981AAB7438005FD6EA /* AppInterfaceController.m */; };
 		BDC2C3001AAA8AF900D1E1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C2FF1AAA8AF900D1E1DA /* main.m */; };
 		BDC2C3031AAA8AF900D1E1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C3021AAA8AF900D1E1DA /* AppDelegate.m */; };
 		BDC2C3061AAA8AF900D1E1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C3051AAA8AF900D1E1DA /* ViewController.m */; };
@@ -26,6 +28,7 @@
 		BDC2C30B1AAA8AF900D1E1DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC2C30A1AAA8AF900D1E1DA /* Images.xcassets */; };
 		BDC2C30E1AAA8AF900D1E1DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC2C30C1AAA8AF900D1E1DA /* LaunchScreen.xib */; };
 		BDC2C31A1AAA8AF900D1E1DA /* Roku_RemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C3191AAA8AF900D1E1DA /* Roku_RemoteTests.m */; };
+		BDCF5F571AAB7697002E67CC /* ApplicationRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF5F561AAB7697002E67CC /* ApplicationRowController.m */; };
 		BDFBAC721AAAD0EA00ED1399 /* NSURL+Roku.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC711AAAD0EA00ED1399 /* NSURL+Roku.m */; };
 /* End PBXBuildFile section */
 
@@ -85,10 +88,12 @@
 		BD5F6D571AAAB3D8006324DC /* RokuDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuDiscovery.m; sourceTree = "<group>"; };
 		BD5F6D5B1AAAB439006324DC /* Roku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roku.h; sourceTree = "<group>"; };
 		BD5F6D5C1AAAB439006324DC /* Roku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roku.m; sourceTree = "<group>"; };
-		BD5F6D5E1AAAB80F006324DC /* RokuApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RokuApps.h; sourceTree = "<group>"; };
-		BD5F6D5F1AAAB80F006324DC /* RokuApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuApps.m; sourceTree = "<group>"; };
+		BD5F6D5E1AAAB80F006324DC /* RokuApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RokuApp.h; sourceTree = "<group>"; };
+		BD5F6D5F1AAAB80F006324DC /* RokuApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuApp.m; sourceTree = "<group>"; };
 		BD5F6D621AAABE42006324DC /* RokuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RokuController.h; sourceTree = "<group>"; };
 		BD5F6D631AAABE42006324DC /* RokuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuController.m; sourceTree = "<group>"; };
+		BD86D1971AAB7438005FD6EA /* AppInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppInterfaceController.h; path = Watch/AppInterfaceController.h; sourceTree = "<group>"; };
+		BD86D1981AAB7438005FD6EA /* AppInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppInterfaceController.m; path = Watch/AppInterfaceController.m; sourceTree = "<group>"; };
 		BDC2C2FA1AAA8AF900D1E1DA /* Roku Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roku Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC2C2FE1AAA8AF900D1E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDC2C2FF1AAA8AF900D1E1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +107,8 @@
 		BDC2C3131AAA8AF900D1E1DA /* Roku RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roku RemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC2C3181AAA8AF900D1E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDC2C3191AAA8AF900D1E1DA /* Roku_RemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Roku_RemoteTests.m; sourceTree = "<group>"; };
+		BDCF5F551AAB7697002E67CC /* ApplicationRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationRowController.h; sourceTree = "<group>"; };
+		BDCF5F561AAB7697002E67CC /* ApplicationRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationRowController.m; sourceTree = "<group>"; };
 		BDFBAC701AAAD0EA00ED1399 /* NSURL+Roku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Roku.h"; sourceTree = "<group>"; };
 		BDFBAC711AAAD0EA00ED1399 /* NSURL+Roku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Roku.m"; sourceTree = "<group>"; };
 		C066D94ADF405114C0BC9141 /* Pods-Roku Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roku Remote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roku Remote/Pods-Roku Remote.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +160,7 @@
 		BD5F6D311AAAA0B7006324DC /* Roku Remote WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BD86D19A1AAB75EF005FD6EA /* Application View */,
 				BD5F6D511AAAA730006324DC /* Menus */,
 				BD5F6D341AAAA0B7006324DC /* InterfaceController.h */,
 				BD5F6D351AAAA0B7006324DC /* InterfaceController.m */,
@@ -221,10 +229,21 @@
 			children = (
 				BD5F6D5B1AAAB439006324DC /* Roku.h */,
 				BD5F6D5C1AAAB439006324DC /* Roku.m */,
-				BD5F6D5E1AAAB80F006324DC /* RokuApps.h */,
-				BD5F6D5F1AAAB80F006324DC /* RokuApps.m */,
+				BD5F6D5E1AAAB80F006324DC /* RokuApp.h */,
+				BD5F6D5F1AAAB80F006324DC /* RokuApp.m */,
 			);
 			name = Objects;
+			sourceTree = "<group>";
+		};
+		BD86D19A1AAB75EF005FD6EA /* Application View */ = {
+			isa = PBXGroup;
+			children = (
+				BD86D1971AAB7438005FD6EA /* AppInterfaceController.h */,
+				BD86D1981AAB7438005FD6EA /* AppInterfaceController.m */,
+				BDCF5F551AAB7697002E67CC /* ApplicationRowController.h */,
+				BDCF5F561AAB7697002E67CC /* ApplicationRowController.m */,
+			);
+			name = "Application View";
 			sourceTree = "<group>";
 		};
 		BDC2C2F11AAA8AF900D1E1DA = {
@@ -492,7 +511,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD86D1961AAB6905005FD6EA /* RokuApp.m in Sources */,
+				BD86D1991AAB7438005FD6EA /* AppInterfaceController.m in Sources */,
 				BD5F6D361AAAA0B7006324DC /* InterfaceController.m in Sources */,
+				BDCF5F571AAB7697002E67CC /* ApplicationRowController.m in Sources */,
 				BD5F6D541AAAA7AA006324DC /* RokuBaseInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,7 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5F6D601AAAB80F006324DC /* RokuApps.m in Sources */,
+				BD5F6D601AAAB80F006324DC /* RokuApp.m in Sources */,
 				BD5F6D641AAABE42006324DC /* RokuController.m in Sources */,
 				BD5F6D5D1AAAB439006324DC /* Roku.m in Sources */,
 				BDC2C3061AAA8AF900D1E1DA /* ViewController.m in Sources */,

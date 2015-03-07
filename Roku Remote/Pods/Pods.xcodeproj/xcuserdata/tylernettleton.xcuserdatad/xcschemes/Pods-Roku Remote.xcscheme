@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8DC9E6AC890682567DCA8E4"
+               BlueprintIdentifier = "B4771FCDC1C1FBFB664028BB"
                BuildableName = "libPods-Roku Remote.a"
                BlueprintName = "Pods-Roku Remote"
                ReferencedContainer = "container:Pods.xcodeproj">

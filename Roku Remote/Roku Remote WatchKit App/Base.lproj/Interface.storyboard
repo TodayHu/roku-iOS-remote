@@ -8,31 +8,40 @@
         <!--Roku Base Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="RokuBaseInterfaceController">
+                <controller id="AgC-eL-Hgc" customClass="RokuBaseInterfaceController"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="150"/>
+        </scene>
+        <!--AppInterfaceController-->
+        <scene sceneID="gMj-85-6Yt">
+            <objects>
+                <controller identifier="AppInterfaceController" id="7F9-Xn-dM5" customClass="AppInterfaceController">
                     <items>
-                        <group width="1" height="1" alignment="left" id="wms-0j-LnC">
+                        <table alignment="center" id="Hrf-H1-4dd">
                             <items>
-                                <group width="1" alignment="left" verticalAlignment="bottom" id="gns-dk-Zo2">
-                                    <items>
-                                        <button width="1" alignment="left" title="Menu" id="W6j-yx-srP">
-                                            <connections>
-                                                <segue destination="gOO-et-nVL" kind="modal" id="tzK-Vb-jmr"/>
-                                            </connections>
-                                        </button>
-                                    </items>
-                                </group>
+                                <tableRow identifier="AppRow" id="3em-vE-KtB" customClass="ApplicationRowController">
+                                    <group key="rootItem" width="1" height="51" alignment="left" id="5uA-Jp-Afy">
+                                        <items>
+                                            <imageView width="35" height="35" alignment="left" verticalAlignment="center" contentMode="scaleAspectFill" animationDuration="1" id="loz-0L-hKn"/>
+                                            <label width="87.5" alignment="left" verticalAlignment="center" text="Label" textAlignment="left" numberOfLines="2" id="hw1-WV-dAr">
+                                                <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="appIconImage" destination="loz-0L-hKn" id="5RX-l5-3Ce"/>
+                                        <outlet property="appNameLabel" destination="hw1-WV-dAr" id="bxi-ge-A2R"/>
+                                    </connections>
+                                </tableRow>
                             </items>
-                        </group>
+                        </table>
                     </items>
+                    <connections>
+                        <outlet property="applicationTable" destination="Hrf-H1-4dd" id="QbG-bu-GdT"/>
+                    </connections>
                 </controller>
             </objects>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="GN6-8k-RdH">
-            <objects>
-                <controller id="gOO-et-nVL"/>
-            </objects>
-            <point key="canvasLocation" x="608" y="645"/>
+            <point key="canvasLocation" x="540" y="346"/>
         </scene>
     </scenes>
 </document>
