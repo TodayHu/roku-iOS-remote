@@ -10,10 +10,424 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>003404813538E06A6E119DCB</key>
+		<key>00AB8BE3E163F778EDE85181</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFURLResponseSerialization.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLResponseSerialization.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>00B13061E0109C90D6BDCCE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AsyncUdpSocket.m</string>
+			<key>path</key>
+			<string>RunLoop/AsyncUdpSocket.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>01BED32992F8B060508F310F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B4E268629C28F212D2FF3F2E</string>
+				<string>5E7E67AE6DFABDEB4F64017C</string>
+				<string>4987CB744628D2E72F376816</string>
+				<string>EFDDD647309433565590E158</string>
+				<string>FAC3691E5F3C4F9B9938017E</string>
+				<string>0E8AE1E713F6E9EF715A7A3B</string>
+				<string>16BB78999CD2DF27D0CA6587</string>
+				<string>16B1DE2E82AB97369895ADA8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AFNetworking</string>
+			<key>path</key>
+			<string>AFNetworking</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02481CDABBEE326AF52C3731</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XMLDictionary.h</string>
+			<key>path</key>
+			<string>XMLDictionary/XMLDictionary.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>03F26914E351E8C741769E37</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F94DF011812AFBEA0A7D02AE</string>
+				<string>2225D43F0CD86A1B606CA740</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>079CFAA7616A1A88246F68DC</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>FB66B7280B8A8B044B96D1C9</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>5BBBC5644ACBBB11129C801A</string>
+			<key>remoteInfo</key>
+			<string>Pods-Roku Remote-AFNetworking</string>
+		</dict>
+		<key>085F0F996ADAA71E52833426</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E35E077F5D5819969C478068</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0B519F608E4E9E78DFFAD2CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImageView+AFNetworking.m</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIImageView+AFNetworking.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C4835AE1789261347839F5D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIActivityIndicatorView+AFNetworking.m</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C76A158A17BDCC8919A227E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>586C3E48554284711BEAF27D</string>
+				<string>82D1C83C063552BFD20F5FA4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>0E21405AFB6238FF334F6030</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B743429C9DD11333F565394B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0E5E9ADF295853E72C1EFBD3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20D1821A612364609E1921B1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0E8AE1E713F6E9EF715A7A3B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CDABD1BB12194938FC14C132</string>
+				<string>0FAE5DCF96641E898D733634</string>
+				<string>00AB8BE3E163F778EDE85181</string>
+				<string>B6326B8F8A1B5AFDA925ACB4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Serialization</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0ED906F09440FBE372862486</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AsyncSocket.h</string>
+			<key>path</key>
+			<string>RunLoop/AsyncSocket.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0FAE5DCF96641E898D733634</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFURLRequestSerialization.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLRequestSerialization.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>113D74B6738B80DC75F2AFB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-XMLDictionary-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11A5A3382672359F5DC9461C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D881DF1534825306FB7D2ABC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>133598CB60761FA0ECADB419</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A62D36CF6ADBAEB474A42C0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>134F8D7B1C89CFEDEB60EB3A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6CE60871BE1EEDA90CDC1705</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1648DABC2B1BF8706CF7ECC9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0FAE5DCF96641E898D733634</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>16B1DE2E82AB97369895ADA8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F69B18F71124FBC5C0BAAC59</string>
+				<string>72C0C1EE87B7D9FFB8929FF3</string>
+				<string>BDE211AF2043DD0D56B9B5F0</string>
+				<string>0C4835AE1789261347839F5D</string>
+				<string>8DB279D0EDFCFD7F608333F2</string>
+				<string>2AB743A60B475520513F1955</string>
+				<string>D881DF1534825306FB7D2ABC</string>
+				<string>36D2C7ECD63FBCF288E3EC52</string>
+				<string>E7B302ABA4947DDDDB261BA9</string>
+				<string>0B519F608E4E9E78DFFAD2CE</string>
+				<string>60BE983AEB703FA34EF5AD42</string>
+				<string>B5634E712158469DF7788663</string>
+				<string>53B6F6A5F4141A3C6DB5B7ED</string>
+				<string>48A24738727EAED82AB16611</string>
+				<string>B743429C9DD11333F565394B</string>
+				<string>728FBDBCA0895A707ACD3FC0</string>
+				<string>A62D36CF6ADBAEB474A42C0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UIKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16BB78999CD2DF27D0CA6587</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BCDE0969073BBD642C8E89B0</string>
+				<string>DE321E85F6B3EA77EBD6E67D</string>
+				<string>C85F3F8EE4099A73D26BF550</string>
+				<string>49F144EA87E9450329224493</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Roku Remote-AFNetworking</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>183DCA3111AAABB622931925</key>
+		<dict>
+			<key>fileRef</key>
+			<string>36D2C7ECD63FBCF288E3EC52</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>186A0DA266155790D20EB533</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0B519F608E4E9E78DFFAD2CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>187B028E0A84058B56DA6ECC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18B39E1563C0E24D95955AC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0ED906F09440FBE372862486</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1AC1EC6DB829BD138E5148D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>1B3186F2ADD5EC5002497851</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XMLDictionary.m</string>
+			<key>path</key>
+			<string>XMLDictionary/XMLDictionary.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1BB77C11EB06856853EA6BAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFHTTPRequestOperation.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPRequestOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EDE154164F33AB6B5FD385D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1AC1EC6DB829BD138E5148D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F0F67B73CD2785D58908A77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-CocoaSSDP</string>
+			<key>target</key>
+			<string>C3816EF0AEFB541B6C3BF1D1</string>
+			<key>targetProxy</key>
+			<string>2600EA81B53F7666FAF1124D</string>
+		</dict>
+		<key>20148184B8849DEE5C879C1F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-XMLDictionary</string>
+			<key>target</key>
+			<string>8F2F19C250368B35BBF5677A</string>
+			<key>targetProxy</key>
+			<string>71124AFD0AF1518427BE0E1F</string>
+		</dict>
+		<key>20D1821A612364609E1921B1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SSDPServiceTypes.h</string>
+			<key>path</key>
+			<string>Classes/SSDPServiceTypes.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2225D43F0CD86A1B606CA740</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>CB33784C0AF5A95441596CFF</string>
+			<string>113D74B6738B80DC75F2AFB2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -25,7 +439,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Roku Remote-CocoaAsyncSocket/Pods-Roku Remote-CocoaAsyncSocket-prefix.pch</string>
+				<string>Target Support Files/Pods-Roku Remote-XMLDictionary/Pods-Roku Remote-XMLDictionary-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -60,363 +474,30 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>019F9DBD054E6A78F8FFB2F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02DFFA35EC902662BF95243B</key>
+		<key>239B6321E33F88200FB6EF36</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CAE4AD31578E56C70130A6EE</string>
+			<string>8DB279D0EDFCFD7F608333F2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
 		</dict>
-		<key>04243F7F364DD886405FA9F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Roku Remote.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0506ABEF550B112B8086F44B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C193443AE6F8B6BE9C2ADFE6</string>
-				<string>FF85FB4189784F6B69560B09</string>
-				<string>95DA047D705E4EAE56702027</string>
-				<string>3BBF8FB7574E91FEB260553B</string>
-				<string>294A494EE884E7978E6C55C9</string>
-				<string>F804BA79E93CE23C81364618</string>
-				<string>A44DAB187841CC3BB52652DC</string>
-				<string>7C8CDFAEFB1EB5F879881A32</string>
-				<string>FAE0F39EBB1EE6DD245355D5</string>
-				<string>CD259A2AC1A724021D9B6847</string>
-				<string>909A1B84A8F55B54784FA9FF</string>
-				<string>980895B0945452A7F3BD65C6</string>
-				<string>B5D69D3A011487DB12D67771</string>
-				<string>11A7424ADC174B392927EAF1</string>
-				<string>61470A3E0915C929F263D5A1</string>
-				<string>63E46D34DE655282B0CA5C00</string>
-				<string>3C78F2BA7A50C461356C5350</string>
-				<string>0FF6E5034400FF850021C94B</string>
-				<string>B24BDA67A9D3E7C4E9F385A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>061B9AA337927AA7779222A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-AFNetworking-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0778A0C37B11748204669929</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Roku Remote.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>07D120111EDD5399DDDF3CA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIRefreshControl+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIRefreshControl+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07DE7992C86D44C59B32E798</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFSecurityPolicy.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFSecurityPolicy.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0867CFA82A929071E47C6E8D</key>
+		<key>2600EA81B53F7666FAF1124D</key>
 		<dict>
 			<key>containerPortal</key>
-			<string>A2B3BB2B56AC473F590351FB</string>
+			<string>FB66B7280B8A8B044B96D1C9</string>
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>B634845FD342AC705EFD4C49</string>
+			<string>C3816EF0AEFB541B6C3BF1D1</string>
 			<key>remoteInfo</key>
-			<string>Pods-Roku Remote-AFNetworking</string>
+			<string>Pods-Roku Remote-CocoaSSDP</string>
 		</dict>
-		<key>08D482899F18ACD859DA0236</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIButton+AFNetworking.m</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIButton+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>091C180F3BF08FC587068356</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFURLConnectionOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0990D17F4F9D878ED433126E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C047918CFD971433A42B04D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD629ED01773EB1151CBAB22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CB282CAEB8B9666A070CDC6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CCB6CF0335955379F952229</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0D6014F4370EF958BDA86746</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SSDPServiceTypes.m</string>
-			<key>path</key>
-			<string>Classes/SSDPServiceTypes.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0EE146C23AFED030009D4F26</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Roku Remote-AFNetworking</string>
-			<key>target</key>
-			<string>B634845FD342AC705EFD4C49</string>
-			<key>targetProxy</key>
-			<string>0867CFA82A929071E47C6E8D</string>
-		</dict>
-		<key>0FF6E5034400FF850021C94B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07D120111EDD5399DDDF3CA6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>104662BCF7575DA402BA2E81</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10C1C2780B834132021C30DA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>20ECE58BA4A69F14308FF236</string>
-				<string>2EA3A051F6C987E75535740E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>11A7424ADC174B392927EAF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>35BA11DFFAAD06BDFF55790D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>12D82271DBC32E951400611E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C1F542E6B8D6B0C1950766C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>136DFF38DC88FF257B71BF7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFURLResponseSerialization.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFURLResponseSerialization.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14801EB8B47C09660A54F845</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIAlertView+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIAlertView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15AF64D48169EB4893474477</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIImageView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1608BFF857E248611D95F11D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-CocoaSSDP-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19E0A3260F1D062200EDD420</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.m</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20ECE58BA4A69F14308FF236</key>
+		<key>267EEA2D536B363A80BCCB41</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1608BFF857E248611D95F11D</string>
+			<string>A8366FD5586BE1C2F84AE4BD</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -462,27 +543,60 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>22491E9F0AB67991C7538FCC</key>
+		<key>267F60E548F6BBD6DB4CFA31</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>98DA95A096A49C1D745BF572</string>
+				<string>D1A921968CFC0877486277E5</string>
+				<string>75A10A4AEAE35DC8F7CA3C46</string>
+				<string>187B028E0A84058B56DA6ECC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Roku Remote-CocoaAsyncSocket</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>279D34BA2E9452215CC2F69E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>75B96E6A2D1D9A3506B9368B</string>
+				<string>CF318D45DE9F58F44F438CE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2808809A7E52C1591424F24C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>19E0A3260F1D062200EDD420</string>
+			<string>E7B302ABA4947DDDDB261BA9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>233DCFFEA0044E6E7D6FCD5B</key>
+		<key>284C18288787F541CF5F0834</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>A2B3BB2B56AC473F590351FB</string>
+			<key>fileRef</key>
+			<string>1AC1EC6DB829BD138E5148D8</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>5058CED3F318C62D60D29D57</string>
-			<key>remoteInfo</key>
-			<string>Pods-Roku Remote-CocoaSSDP</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>24B7BA2748EC98D0C71C4E81</key>
+		<key>2935FC353FD6F08832A7010F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3A2B27189233E1C6CBA8B3D7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2AB743A60B475520513F1955</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -497,37 +611,154 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>25180BC33C6A600A299AF1E0</key>
+		<key>2ED260DEB6F32CA1E4A125D5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB9D88CF93F63A5952157203</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>31C4F347DC161AD983BEDA21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6BA2C336CE9D4032D472C5F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3275981408EDFACD49A44AFD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AsyncUdpSocket.h</string>
+			<string>AFNetworkReachabilityManager.m</string>
 			<key>path</key>
-			<string>RunLoop/AsyncUdpSocket.h</string>
+			<string>AFNetworking/AFNetworkReachabilityManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>25DE1B8748306F1E9E582D12</key>
+		<key>32A25E77115A0A34BA10CB2B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B3DBE2098758EAC0CBF2A662</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>35B16D5B2BEFE6A3D4E9FB38</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>37BD14162E79100986089F78</string>
+				<string>D77055CDE202B3C5AFEAEE84</string>
+				<string>AEF8F471FFECECA29E32C1F3</string>
+				<string>B3E76F06D2AA322CDF6F5BAD</string>
+				<string>497A48B40ACB757825875610</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>36D2C7ECD63FBCF288E3EC52</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AFHTTPRequestOperation.h</string>
+			<string>UIButton+AFNetworking.m</string>
 			<key>path</key>
-			<string>AFNetworking/AFHTTPRequestOperation.h</string>
+			<string>UIKit+AFNetworking/UIButton+AFNetworking.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2813456863B2261BBE7D07DE</key>
+		<key>3744D5A228F20216F09BD553</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F7A42A2D25F4B7E61183464</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>37BD14162E79100986089F78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>3A2B27189233E1C6CBA8B3D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFSecurityPolicy.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFSecurityPolicy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3BD1F14B5793222F5B8E06FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-AFNetworking</string>
+			<key>target</key>
+			<string>5BBBC5644ACBBB11129C801A</string>
+			<key>targetProxy</key>
+			<string>079CFAA7616A1A88246F68DC</string>
+		</dict>
+		<key>3DAB494CB3532BC8BD01E521</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+			<key>target</key>
+			<string>7BD49EE1D6EE712C972BA259</string>
+			<key>targetProxy</key>
+			<string>E4646C4CCA7D0AB5FB041E8B</string>
+		</dict>
+		<key>3F7A42A2D25F4B7E61183464</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Security.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>41C6EF2F43496CDB83526771</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02481CDABBEE326AF52C3731</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>469597ECE0668867D40E64E9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -542,14 +773,758 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>294A494EE884E7978E6C55C9</key>
+		<key>46A3E63DBE21CA6A667C5C20</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>32A25E77115A0A34BA10CB2B</string>
+				<string>7F01646FD1A2478CE0711FE6</string>
+				<string>D71DB3B840897FF67ABA4B76</string>
+				<string>9069B7585788D538CA4E3614</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4783750E1A8518BC3EDE6EFC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E09D34D7EEF7D3D0F9ADA387</string>
+			<string>A86528CE4E3E8FE7C5477B70</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2CD504C21D9A1F95D1B39C6E</key>
+		<key>48A24738727EAED82AB16611</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIRefreshControl+AFNetworking.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIRefreshControl+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>497A48B40ACB757825875610</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6E0A2BD341799E2CFB499CC2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4987CB744628D2E72F376816</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EABFEFA2DCECE3573FDB40BD</string>
+				<string>AF0AE315F17DE6D2567F9C5F</string>
+				<string>5AA35BFE57315402BF2283E5</string>
+				<string>F0E9DC4B7E600EFF156F0C0F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>NSURLSession</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>49F144EA87E9450329224493</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-AFNetworking-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A422DC8875D33F136BDBAA3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F908BA42DB8DD3D79C4099C3</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4B5A0DA75D909E82D16CB1DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4DCDDA545DEB4BB3F638F3F3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>02481CDABBEE326AF52C3731</string>
+				<string>1B3186F2ADD5EC5002497851</string>
+				<string>F1BFC41F616FD1A083D964B4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>XMLDictionary</string>
+			<key>path</key>
+			<string>XMLDictionary</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F6435C5ABA37C7F8E5C3E14</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-XMLDictionary.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>515060D5FC309E081B0FCF37</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A8366FD5586BE1C2F84AE4BD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Roku Remote-CocoaSSDP/Pods-Roku Remote-CocoaSSDP-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>53B6F6A5F4141A3C6DB5B7ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIProgressView+AFNetworking.m</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIProgressView+AFNetworking.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>556C1D8F9B8610BE68127D29</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SSDPServiceBrowser.h</string>
+			<key>path</key>
+			<string>Classes/SSDPServiceBrowser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>586C3E48554284711BEAF27D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D1A921968CFC0877486277E5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Roku Remote-CocoaAsyncSocket/Pods-Roku Remote-CocoaAsyncSocket-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>58B20EBBA0CE454761B319A0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>41C6EF2F43496CDB83526771</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5AA35BFE57315402BF2283E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFURLSessionManager.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLSessionManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5BBBC5644ACBBB11129C801A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A5ADB13FFBEDA764D07D6CAD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C38898818557AA1AE357EB16</string>
+				<string>D294BE424A864144C8BE9B22</string>
+				<string>78C6FD03F010E1BDC0D76193</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-AFNetworking</string>
+			<key>productName</key>
+			<string>Pods-Roku Remote-AFNetworking</string>
+			<key>productReference</key>
+			<string>B29345D1385B0C73DB05CE89</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>5CFAC2659C54DE6C73653905</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>469597ECE0668867D40E64E9</string>
+				<string>D540E01237DD0CB232815F6A</string>
+				<string>556C1D8F9B8610BE68127D29</string>
+				<string>6A28D33B28F687DE60A30EFD</string>
+				<string>20D1821A612364609E1921B1</string>
+				<string>6D8D3EB23D6764FDB4FA6E9A</string>
+				<string>D981870BDD25A1BBC4BB2378</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CocoaSSDP</string>
+			<key>path</key>
+			<string>CocoaSSDP</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E7E67AE6DFABDEB4F64017C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1BB77C11EB06856853EA6BAF</string>
+				<string>AB9D88CF93F63A5952157203</string>
+				<string>6BA2C336CE9D4032D472C5F9</string>
+				<string>CD9C6DD848736541582FB01D</string>
+				<string>6CE60871BE1EEDA90CDC1705</string>
+				<string>71A62FF151028B3B414D657E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>NSURLConnection</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5FD292B856BB5F28ADC02959</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CCF2CD66A43A0B9A19D90AFF</string>
+				<string>4A422DC8875D33F136BDBAA3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5FE80E58CF70783FC143E065</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1AC1EC6DB829BD138E5148D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>60BE983AEB703FA34EF5AD42</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIKit+AFNetworking.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIKit+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6266B34BB21EE63D8ABF6833</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>18B39E1563C0E24D95955AC8</string>
+				<string>CC975295C26B3A9B31BF4CED</string>
+				<string>EBA6DF0373205F7280078B24</string>
+				<string>085F0F996ADAA71E52833426</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>63EE4324A13EEDBB88330676</key>
+		<dict>
+			<key>fileRef</key>
+			<string>53B6F6A5F4141A3C6DB5B7ED</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>63FAFA5CC30DBF11D8BB21CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD66C09410AEFE6169B99C55</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6A28D33B28F687DE60A30EFD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SSDPServiceBrowser.m</string>
+			<key>path</key>
+			<string>Classes/SSDPServiceBrowser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B45E835D1E1B8B0F17B0224</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F69B18F71124FBC5C0BAAC59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6BA2C336CE9D4032D472C5F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFHTTPRequestOperationManager.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPRequestOperationManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CE60871BE1EEDA90CDC1705</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFURLConnectionOperation.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLConnectionOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D8D3EB23D6764FDB4FA6E9A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SSDPServiceTypes.m</string>
+			<key>path</key>
+			<string>Classes/SSDPServiceTypes.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DF77F062B3DB95D692935BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B61DA0E646C519C87F7212DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6E0A2BD341799E2CFB499CC2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A75D9C3E1B8413B2974A312F</string>
+				<string>C16DC28D4DAE6914E26B2655</string>
+				<string>A75B81FF6A13AC16C0E4142E</string>
+				<string>4B5A0DA75D909E82D16CB1DB</string>
+				<string>EA8CF0D5EA0ADAE051630753</string>
+				<string>E57113362B4EA804E26DE65B</string>
+				<string>F908BA42DB8DD3D79C4099C3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Roku Remote</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Roku Remote</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6EA025FF5F5C427C9B43BAD6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AsyncSocket.m</string>
+			<key>path</key>
+			<string>RunLoop/AsyncSocket.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>70207E4406C7871763047F1B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EABFEFA2DCECE3573FDB40BD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71124AFD0AF1518427BE0E1F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>FB66B7280B8A8B044B96D1C9</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8F2F19C250368B35BBF5677A</string>
+			<key>remoteInfo</key>
+			<string>Pods-Roku Remote-XMLDictionary</string>
+		</dict>
+		<key>71A62FF151028B3B414D657E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFURLConnectionOperation.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLConnectionOperation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>723F07D2BF13114E212830FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5634E712158469DF7788663</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>728FBDBCA0895A707ACD3FC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIWebView+AFNetworking.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIWebView+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72C0C1EE87B7D9FFB8929FF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFNetworkActivityIndicatorManager.m</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>75A10A4AEAE35DC8F7CA3C46</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>75B96E6A2D1D9A3506B9368B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BDB8952981DADA576D3198FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>773D412CDE598CD879388539</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C85F3F8EE4099A73D26BF550</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>78C6FD03F010E1BDC0D76193</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BB4AEDB4124BC4CC7BC6515E</string>
+				<string>31C4F347DC161AD983BEDA21</string>
+				<string>70207E4406C7871763047F1B</string>
+				<string>6B45E835D1E1B8B0F17B0224</string>
+				<string>4783750E1A8518BC3EDE6EFC</string>
+				<string>F65DA43E6EFE084F749237CF</string>
+				<string>C6E7F2EE1B34980FB4D16839</string>
+				<string>134F8D7B1C89CFEDEB60EB3A</string>
+				<string>93F55C672D11E8D304C4D12D</string>
+				<string>A95B6AEB106CEB9D7883BA39</string>
+				<string>AC2596AECD3B24ABDBE64F2F</string>
+				<string>9D7A561B87EC0186F4806CFD</string>
+				<string>239B6321E33F88200FB6EF36</string>
+				<string>11A5A3382672359F5DC9461C</string>
+				<string>2808809A7E52C1591424F24C</string>
+				<string>BD88EECA0406EB9AB10EB73D</string>
+				<string>723F07D2BF13114E212830FF</string>
+				<string>C50F3049ED360E6E83B2EC04</string>
+				<string>D36ACB38A3F0A3908B168C74</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7AACB145FC73F2FD745B2A68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GCDAsyncSocket.h</string>
+			<key>path</key>
+			<string>GCD/GCDAsyncSocket.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7BD49EE1D6EE712C972BA259</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>0C76A158A17BDCC8919A227E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E3F0A526218CC5CCAB92EF05</string>
+				<string>92561D70C8CC3E2E15AEC573</string>
+				<string>6266B34BB21EE63D8ABF6833</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+			<key>productName</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+			<key>productReference</key>
+			<string>82CBCD9282239B3AA5FF7B10</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>7C55AD4DD7F1709F5FA98824</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5FE80E58CF70783FC143E065</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7D4AB4D7F916E4BCD0979D76</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -616,38 +1591,85 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2CE62019E9C49A1005E8D25A</key>
+		<key>7F01646FD1A2478CE0711FE6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>D540E01237DD0CB232815F6A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>7FF55CEF30E60F879A9BC978</key>
+		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>AFURLSessionManager.m</string>
+			<string>CFNetwork.framework</string>
 			<key>path</key>
-			<string>AFNetworking/AFURLSessionManager.m</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>2E753B153FF17A6F7D46DE87</key>
+		<key>80240A84FC409FC11B2A4781</key>
 		<dict>
+			<key>fileRef</key>
+			<string>A98106194AF171B46E8F54F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>818AC16D1D8B44A4527B8EC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A3C13EF74D1834CF789D04BA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>8240FD558626E28893A3CFF2</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-Roku Remote-AFNetworking-prefix.pch</string>
+			<string>libPods-Roku Remote-XMLDictionary.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>2EA3A051F6C987E75535740E</key>
+		<key>82CBCD9282239B3AA5FF7B10</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Roku Remote-CocoaAsyncSocket.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>82D1C83C063552BFD20F5FA4</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1608BFF857E248611D95F11D</string>
+			<string>D1A921968CFC0877486277E5</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -659,7 +1681,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Roku Remote-CocoaSSDP/Pods-Roku Remote-CocoaSSDP-prefix.pch</string>
+				<string>Target Support Files/Pods-Roku Remote-CocoaAsyncSocket/Pods-Roku Remote-CocoaAsyncSocket-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -694,74 +1716,14 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>2F1FF7C5E6942B5E54050AAD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>061B9AA337927AA7779222A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Roku Remote-AFNetworking/Pods-Roku Remote-AFNetworking-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2FCDE1A964052E985F5C4946</key>
+		<key>841ACA5B785D74E76A588914</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D993538532F8050918424D7B</string>
+			<string>469597ECE0668867D40E64E9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>301A5C63B9E9934897C2F0E9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
-			<key>target</key>
-			<string>3346C78C7FC3866280B452C0</string>
-			<key>targetProxy</key>
-			<string>79C73BB322EF82B83EC03E36</string>
-		</dict>
-		<key>31A3F19D1265713147E194EC</key>
+		<key>8DB279D0EDFCFD7F608333F2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -770,34 +1732,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>AFURLRequestSerialization.h</string>
+			<string>UIAlertView+AFNetworking.h</string>
 			<key>path</key>
-			<string>AFNetworking/AFURLRequestSerialization.h</string>
+			<string>UIKit+AFNetworking/UIAlertView+AFNetworking.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>330AFFDF16A9080C16E959AB</key>
+		<key>8DEC04485188A3CB980E2986</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>556C1D8F9B8610BE68127D29</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>3346C78C7FC3866280B452C0</key>
+		<key>8F2F19C250368B35BBF5677A</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>54E08452D74EC753B2801393</string>
+			<string>03F26914E351E8C741769E37</string>
 			<key>buildPhases</key>
 			<array>
-				<string>6DD7A5FCB3B3DF7A8B474FE2</string>
-				<string>777462A836AB3336FEC6822B</string>
-				<string>CD705141321FA0E7796C8867</string>
+				<string>279D34BA2E9452215CC2F69E</string>
+				<string>FDBB8CD1106DA3A0052FDFE7</string>
+				<string>58B20EBBA0CE454761B319A0</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -806,120 +1762,56 @@
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+			<string>Pods-Roku Remote-XMLDictionary</string>
 			<key>productName</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+			<string>Pods-Roku Remote-XMLDictionary</string>
 			<key>productReference</key>
-			<string>9FF8EBCB690BC8E32164AB46</string>
+			<string>8240FD558626E28893A3CFF2</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>358E36E8A6FFDD800C077073</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35BA11DFFAAD06BDFF55790D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIButton+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIButton+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37B2CD0323F2425827F1EC71</key>
+		<key>9069B7585788D538CA4E3614</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CA7C3561F62026C093030FB6</string>
+			<string>6D8D3EB23D6764FDB4FA6E9A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>387BEEFEB807ED503453E8C2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BCA325E6B4148FE41146B62D</string>
-			<key>buildSettings</key>
+			<key>settings</key>
 			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
-		<key>3BBF8FB7574E91FEB260553B</key>
+		<key>909C440B10299D225DC10CBC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C5A90967C132B662F65B04CA</string>
+			<string>A75B81FF6A13AC16C0E4142E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3C2149EFE6CE48BCFA012527</key>
+		<key>92561D70C8CC3E2E15AEC573</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>5DF759A84152142975EEBA07</string>
+				<string>EF5BB612B20A5693D030CFAF</string>
+				<string>284C18288787F541CF5F0834</string>
+				<string>3744D5A228F20216F09BD553</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>3C65122E668EAC4E19AA5176</key>
+		<key>93F55C672D11E8D304C4D12D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CDABD1BB12194938FC14C132</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>98DA95A096A49C1D745BF572</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -932,87 +1824,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3C78F2BA7A50C461356C5350</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D9A9D91293D45B3ACB28291</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CEE76A425E087A3D1D52507</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A2B3BB2B56AC473F590351FB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3346C78C7FC3866280B452C0</string>
-			<key>remoteInfo</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
-		</dict>
-		<key>403AF40393181B519950B864</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41D12BDF44E18FF625EC60E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-CocoaSSDP.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41DC875905325E08356CA470</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA7C3561F62026C093030FB6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>44EB6A60916150C5B26FA4A0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>476B4DCFCD55EE2096E07D74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CC92C82445F912F4B901AE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4A044C90C5E318BD8CA3675D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>44EB6A60916150C5B26FA4A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4A61DDAC4D95749ECF46430F</key>
+		<key>9A0013EEC907355F7B4C8828</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1020,119 +1832,50 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AsyncUdpSocket.h</string>
 			<key>path</key>
-			<string>Pods-Roku Remote-CocoaSSDP-prefix.pch</string>
+			<string>RunLoop/AsyncUdpSocket.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4B65012781E3F42F6CAD46DA</key>
+		<key>9D7A561B87EC0186F4806CFD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C91EFB44B952F3DE2D2B8E40</string>
+			<string>BDE211AF2043DD0D56B9B5F0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4DD67802FAB301811B4280F5</key>
+		<key>9E3286743B3B47D69421ECA9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A8E9FEA9F7D52F8367E7A317</string>
+			<string>6EA025FF5F5C427C9B43BAD6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
 		</dict>
-		<key>4E1860C1BB7467C4BD8562AA</key>
+		<key>9EA90A6303DB8CB925D62F1E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>58DE60E40F63924AE96DC736</string>
+			<string>00B13061E0109C90D6BDCCE5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
 		</dict>
-		<key>4E50A6C39A1D107CEA1FED25</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E09D34D7EEF7D3D0F9ADA387</string>
-				<string>8CC92C82445F912F4B901AE1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Reachability</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E6EAB05F30B5B19E109C662</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA1EB7781283C71B51C41063</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5058CED3F318C62D60D29D57</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>10C1C2780B834132021C30DA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B4F8FE39323B24C4DAF6C25B</string>
-				<string>E15E1459A2C1E633CD48591F</string>
-				<string>52D439387131DCE2700EB898</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>301A5C63B9E9934897C2F0E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Roku Remote-CocoaSSDP</string>
-			<key>productName</key>
-			<string>Pods-Roku Remote-CocoaSSDP</string>
-			<key>productReference</key>
-			<string>B498BC67153653A0422447FB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>52D439387131DCE2700EB898</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CD6D33AD2546EEEA912BEC40</string>
-				<string>A149B23F80547C81E949BE37</string>
-				<string>6E189A42E3BE96F75C77B4AF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5337473A22492B4445AF4750</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>41D12BDF44E18FF625EC60E8</string>
-				<string>1608BFF857E248611D95F11D</string>
-				<string>58DE60E40F63924AE96DC736</string>
-				<string>4A61DDAC4D95749ECF46430F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Roku Remote-CocoaSSDP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54E08452D74EC753B2801393</key>
+		<key>9FB74B4AAEBAD7572C6A786D</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>59E8C77FDE8274A4F07623D3</string>
-				<string>003404813538E06A6E119DCB</string>
+				<string>267EEA2D536B363A80BCCB41</string>
+				<string>515060D5FC309E081B0FCF37</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1141,20 +1884,27 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>58DE60E40F63924AE96DC736</key>
+		<key>A34622639435C0082F3394A9</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1EDE154164F33AB6B5FD385D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-CocoaSSDP-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>59D090D2B21A68D64EDC17B7</key>
+		<key>A34F72E6B2F207A183117F64</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1AC1EC6DB829BD138E5148D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A3C13EF74D1834CF789D04BA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1169,404 +1919,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>59E8C77FDE8274A4F07623D3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CB33784C0AF5A95441596CFF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Roku Remote-CocoaAsyncSocket/Pods-Roku Remote-CocoaAsyncSocket-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5C316E081FBAC70A65715884</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFURLRequestSerialization.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFURLRequestSerialization.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C4D2703F8CFFFE2FCBCBBB2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Roku Remote-CocoaSSDP</string>
-			<key>target</key>
-			<string>5058CED3F318C62D60D29D57</string>
-			<key>targetProxy</key>
-			<string>233DCFFEA0044E6E7D6FCD5B</string>
-		</dict>
-		<key>5C9B13562C76A932D0E2261C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>44EB6A60916150C5B26FA4A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5DF759A84152142975EEBA07</key>
-		<dict>
-			<key>fileRef</key>
-			<string>44EB6A60916150C5B26FA4A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>609058EE20ACB4492BD18A30</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F73BDAFE09D185E83BE83FB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>60B0073240862F24D91A222C</key>
+		<key>A575650192079834755D9941</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>AEC481DEFE153302FA927558</string>
+				<string>909C440B10299D225DC10CBC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>61470A3E0915C929F263D5A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15AF64D48169EB4893474477</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>619E7DE548B593AB5EB8A6AC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C5A90967C132B662F65B04CA</string>
-				<string>19E0A3260F1D062200EDD420</string>
-				<string>DFD70F785C70202F175DF295</string>
-				<string>D993538532F8050918424D7B</string>
-				<string>14801EB8B47C09660A54F845</string>
-				<string>24B7BA2748EC98D0C71C4E81</string>
-				<string>35BA11DFFAAD06BDFF55790D</string>
-				<string>08D482899F18ACD859DA0236</string>
-				<string>15AF64D48169EB4893474477</string>
-				<string>767D69B5AE36D749A429C0C6</string>
-				<string>ACA0CEA54D5DC409A405490F</string>
-				<string>9D9A9D91293D45B3ACB28291</string>
-				<string>C7DE7083CEB165AAB1694CB4</string>
-				<string>07D120111EDD5399DDDF3CA6</string>
-				<string>F73BDAFE09D185E83BE83FB1</string>
-				<string>CF0B575402B2F79497B10223</string>
-				<string>F4CFF32397C2B749F858D9DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63E46D34DE655282B0CA5C00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ACA0CEA54D5DC409A405490F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>656011BE4072CC759AE85E35</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SSDPService.m</string>
-			<key>path</key>
-			<string>Classes/SSDPService.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67535A847FCB5D14215F409D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperationManager.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFHTTPRequestOperationManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>688AFA6A650992539FF55132</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8C04818E622E90263182C687</string>
-				<string>73EF3688DB005CF2AA280F9D</string>
-				<string>6AB6886042529D95A7893846</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69A0192E3157CAA16E8831F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AB6886042529D95A7893846</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2813456863B2261BBE7D07DE</string>
-				<string>656011BE4072CC759AE85E35</string>
-				<string>F14D0360302FE1EE30763D6A</string>
-				<string>8CCB6CF0335955379F952229</string>
-				<string>C6353C6DEBD29AABADB10333</string>
-				<string>0D6014F4370EF958BDA86746</string>
-				<string>5337473A22492B4445AF4750</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CocoaSSDP</string>
-			<key>path</key>
-			<string>CocoaSSDP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DD7A5FCB3B3DF7A8B474FE2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>02DFFA35EC902662BF95243B</string>
-				<string>75FB9DC18FC6B8148D2F9626</string>
-				<string>ECF43A631BB53F5027659B3C</string>
-				<string>797461C534AD40A78A03B18D</string>
-				<string>EB7E4D716E3156BC2C57F4B3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6E189A42E3BE96F75C77B4AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6353C6DEBD29AABADB10333</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73EF3688DB005CF2AA280F9D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D40D88A6346C93A391A0579</string>
-				<string>CAE4AD31578E56C70130A6EE</string>
-				<string>25180BC33C6A600A299AF1E0</string>
-				<string>AA4E04EB93B1349CABF5481C</string>
-				<string>7D31930DA3CEE0D59B563310</string>
-				<string>59D090D2B21A68D64EDC17B7</string>
-				<string>F7D4F0E6923C93322FEB06E8</string>
-				<string>BFAFEAD7AEA21E27F07FE356</string>
-				<string>855193217FF3BE29AD503D5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CocoaAsyncSocket</string>
-			<key>path</key>
-			<string>CocoaAsyncSocket</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75FB9DC18FC6B8148D2F9626</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA4E04EB93B1349CABF5481C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>767D69B5AE36D749A429C0C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.m</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIImageView+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>777462A836AB3336FEC6822B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9627812FC28014751932D7E3</string>
-				<string>D6544450148F91BA17BE016F</string>
-				<string>37B2CD0323F2425827F1EC71</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>797461C534AD40A78A03B18D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BFAFEAD7AEA21E27F07FE356</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>79C73BB322EF82B83EC03E36</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A2B3BB2B56AC473F590351FB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3346C78C7FC3866280B452C0</string>
-			<key>remoteInfo</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
-		</dict>
-		<key>79E8A3E1F856F6945575A3E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>04243F7F364DD886405FA9F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>79E96C7AD2EDFEB229C6CF74</key>
+		<key>A5ADB13FFBEDA764D07D6CAD</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>2F1FF7C5E6942B5E54050AAD</string>
-				<string>8AAEA7A615F25C5476BDB416</string>
+				<string>D32A8E204181989DCCE75EFD</string>
+				<string>FD3B9BD04C65C25E373DBC5F</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1575,101 +1946,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>7A1200B54E9D478E23FECCC3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CDAEC29C6AC9324BB45BB076</string>
-				<string>956A5EE7B396AE563B55945C</string>
-				<string>688AFA6A650992539FF55132</string>
-				<string>937A49CB575890C320EA5485</string>
-				<string>12D82271DBC32E951400611E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A47472C5F23FD21723221A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A47E236F0F7711A36DE8AF42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B4A630FEDCA6FAF063EA0FB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7C32D2A34A67D57B51F78A11</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B4A630FEDCA6FAF063EA0FB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C8CDFAEFB1EB5F879881A32</key>
-		<dict>
-			<key>fileRef</key>
-			<string>091C180F3BF08FC587068356</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D31930DA3CEE0D59B563310</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GCDAsyncSocket.h</string>
-			<key>path</key>
-			<string>GCD/GCDAsyncSocket.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85060C863B62F7D66C53C27B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>656011BE4072CC759AE85E35</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>855193217FF3BE29AD503D5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C65122E668EAC4E19AA5176</string>
-				<string>CB33784C0AF5A95441596CFF</string>
-				<string>C43030599AF46A42CEBBFBE0</string>
-				<string>330AFFDF16A9080C16E959AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Roku Remote-CocoaAsyncSocket</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A32B447EA10D86D9BEFF455</key>
+		<key>A62D36CF6ADBAEB474A42C0C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1678,677 +1955,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AFURLConnectionOperation.m</string>
+			<string>UIWebView+AFNetworking.m</string>
 			<key>path</key>
-			<string>AFNetworking/AFURLConnectionOperation.m</string>
+			<string>UIKit+AFNetworking/UIWebView+AFNetworking.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8AAEA7A615F25C5476BDB416</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>061B9AA337927AA7779222A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Roku Remote-AFNetworking/Pods-Roku Remote-AFNetworking-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8BEE4BE90A7058EE14376E65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24B7BA2748EC98D0C71C4E81</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C04818E622E90263182C687</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>358E36E8A6FFDD800C077073</string>
-				<string>D19FC7E6ADBA5280E6F986E4</string>
-				<string>DB796E4C06B5A4F8F510F6E2</string>
-				<string>4E50A6C39A1D107CEA1FED25</string>
-				<string>8E881D985848166CEFEE9220</string>
-				<string>A806D9996374E40CF7EB6E75</string>
-				<string>A02197DC0DA8306245E1C0EE</string>
-				<string>619E7DE548B593AB5EB8A6AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AFNetworking</string>
-			<key>path</key>
-			<string>AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CC92C82445F912F4B901AE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFNetworkReachabilityManager.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworkReachabilityManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CCB6CF0335955379F952229</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SSDPServiceBrowser.m</string>
-			<key>path</key>
-			<string>Classes/SSDPServiceBrowser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D435DF6AD299B8F1C5D2CC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4CFF32397C2B749F858D9DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E881D985848166CEFEE9220</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>07DE7992C86D44C59B32E798</string>
-				<string>DA1EB7781283C71B51C41063</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Security</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>909A1B84A8F55B54784FA9FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A5CE71797B9EE32B1E05F051</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91EF560C9AFFD0724196021F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Roku Remote-AFNetworking.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>937A49CB575890C320EA5485</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0778A0C37B11748204669929</string>
-				<string>91EF560C9AFFD0724196021F</string>
-				<string>9FF8EBCB690BC8E32164AB46</string>
-				<string>B498BC67153653A0422447FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>956A5EE7B396AE563B55945C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C909D0F6EC176E6E7B9E698F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95DA047D705E4EAE56702027</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F62B90C82E5BF445BECA7F44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9627812FC28014751932D7E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B428F307AA67E4FEFB8A2591</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>980895B0945452A7F3BD65C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DFD70F785C70202F175DF295</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9AB9F83AA91073D5C458DA78</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>79E8A3E1F856F6945575A3E7</string>
-				<string>387BEEFEB807ED503453E8C2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9C680FD618FA57ADB35139D0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2CD504C21D9A1F95D1B39C6E</string>
-				<string>EDFB84427386D03FA34C29FA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D40D88A6346C93A391A0579</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AsyncSocket.h</string>
-			<key>path</key>
-			<string>RunLoop/AsyncSocket.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D9A9D91293D45B3ACB28291</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIProgressView+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIProgressView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9FF8EBCB690BC8E32164AB46</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Roku Remote-CocoaAsyncSocket.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A02197DC0DA8306245E1C0EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE6EAC38599C2C37E3A5DC0E</string>
-				<string>061B9AA337927AA7779222A6</string>
-				<string>BD629ED01773EB1151CBAB22</string>
-				<string>2E753B153FF17A6F7D46DE87</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Roku Remote-AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A149B23F80547C81E949BE37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F14D0360302FE1EE30763D6A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A2B3BB2B56AC473F590351FB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>9C680FD618FA57ADB35139D0</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7A1200B54E9D478E23FECCC3</string>
-			<key>productRefGroup</key>
-			<string>937A49CB575890C320EA5485</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>A8DC9E6AC890682567DCA8E4</string>
-				<string>B634845FD342AC705EFD4C49</string>
-				<string>3346C78C7FC3866280B452C0</string>
-				<string>5058CED3F318C62D60D29D57</string>
-			</array>
-		</dict>
-		<key>A3C8FE58325BAFE3201ECF56</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7A47472C5F23FD21723221A0</string>
-				<string>4B65012781E3F42F6CAD46DA</string>
-				<string>D1A02CD34D79077946235329</string>
-				<string>22491E9F0AB67991C7538FCC</string>
-				<string>476B4DCFCD55EE2096E07D74</string>
-				<string>4E6EAB05F30B5B19E109C662</string>
-				<string>B39F228B0BEF29554219F027</string>
-				<string>FE15F2D31D5E91BB6AE891D2</string>
-				<string>BC8B6B284318EB29A22FF3EB</string>
-				<string>D8777E10EC315E6D8560EB17</string>
-				<string>0C047918CFD971433A42B04D</string>
-				<string>2FCDE1A964052E985F5C4946</string>
-				<string>8BEE4BE90A7058EE14376E65</string>
-				<string>E228735CCA34D527C39B7DA1</string>
-				<string>B4B2EB2B8E38889342A74F02</string>
-				<string>B854A250F67EE0396D5D0C4D</string>
-				<string>609058EE20ACB4492BD18A30</string>
-				<string>8D435DF6AD299B8F1C5D2CC3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A44DAB187841CC3BB52652DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07DE7992C86D44C59B32E798</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A47E236F0F7711A36DE8AF42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFHTTPRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5CE71797B9EE32B1E05F051</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFURLSessionManager.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFURLSessionManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6B9CE3DAD09F69C682EA1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D40D88A6346C93A391A0579</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A806D9996374E40CF7EB6E75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>31A3F19D1265713147E194EC</string>
-				<string>5C316E081FBAC70A65715884</string>
-				<string>136DFF38DC88FF257B71BF7D</string>
-				<string>B172BBF8CB13D18D78F91CFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Serialization</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8DC9E6AC890682567DCA8E4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9AB9F83AA91073D5C458DA78</string>
-			<key>buildPhases</key>
-			<array>
-				<string>60B0073240862F24D91A222C</string>
-				<string>3C2149EFE6CE48BCFA012527</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0EE146C23AFED030009D4F26</string>
-				<string>AE990E1A8353EC49C217121A</string>
-				<string>5C4D2703F8CFFFE2FCBCBBB2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Roku Remote</string>
-			<key>productName</key>
-			<string>Pods-Roku Remote</string>
-			<key>productReference</key>
-			<string>0778A0C37B11748204669929</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>A8E9FEA9F7D52F8367E7A317</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AA4E04EB93B1349CABF5481C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AsyncUdpSocket.m</string>
-			<key>path</key>
-			<string>RunLoop/AsyncUdpSocket.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ACA0CEA54D5DC409A405490F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIKit+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIKit+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE990E1A8353EC49C217121A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
-			<key>target</key>
-			<string>3346C78C7FC3866280B452C0</string>
-			<key>targetProxy</key>
-			<string>3CEE76A425E087A3D1D52507</string>
-		</dict>
-		<key>AEC481DEFE153302FA927558</key>
-		<dict>
-			<key>fileRef</key>
-			<string>403AF40393181B519950B864</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B172BBF8CB13D18D78F91CFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFURLResponseSerialization.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFURLResponseSerialization.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B24BDA67A9D3E7C4E9F385A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF0B575402B2F79497B10223</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B39F228B0BEF29554219F027</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A32B447EA10D86D9BEFF455</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B428F307AA67E4FEFB8A2591</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CFNetwork.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B498BC67153653A0422447FB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Roku Remote-CocoaSSDP.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B4B2EB2B8E38889342A74F02</key>
-		<dict>
-			<key>fileRef</key>
-			<string>767D69B5AE36D749A429C0C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4F8FE39323B24C4DAF6C25B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E1860C1BB7467C4BD8562AA</string>
-				<string>85060C863B62F7D66C53C27B</string>
-				<string>0CB282CAEB8B9666A070CDC6</string>
-				<string>F71E74D8DD033D3FCD9D90C7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B5D69D3A011487DB12D67771</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14801EB8B47C09660A54F845</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B634845FD342AC705EFD4C49</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>79E96C7AD2EDFEB229C6CF74</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A3C8FE58325BAFE3201ECF56</string>
-				<string>EB9B7374001634AF5FB0229B</string>
-				<string>0506ABEF550B112B8086F44B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Roku Remote-AFNetworking</string>
-			<key>productName</key>
-			<string>Pods-Roku Remote-AFNetworking</string>
-			<key>productReference</key>
-			<string>91EF560C9AFFD0724196021F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B6B5661C711269C9858D9E89</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B854A250F67EE0396D5D0C4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7DE7083CEB165AAB1694CB4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC8B6B284318EB29A22FF3EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B172BBF8CB13D18D78F91CFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BCA325E6B4148FE41146B62D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Roku Remote.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD629ED01773EB1151CBAB22</key>
+		<key>A75B81FF6A13AC16C0E4142E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2357,216 +1970,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-Roku Remote-AFNetworking-dummy.m</string>
+			<string>Pods-Roku Remote-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BFAFEAD7AEA21E27F07FE356</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GCDAsyncUdpSocket.m</string>
-			<key>path</key>
-			<string>GCD/GCDAsyncUdpSocket.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C193443AE6F8B6BE9C2ADFE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25DE1B8748306F1E9E582D12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C1F542E6B8D6B0C1950766C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>104662BCF7575DA402BA2E81</string>
-				<string>019F9DBD054E6A78F8FFB2F8</string>
-				<string>403AF40393181B519950B864</string>
-				<string>69A0192E3157CAA16E8831F5</string>
-				<string>0990D17F4F9D878ED433126E</string>
-				<string>04243F7F364DD886405FA9F6</string>
-				<string>BCA325E6B4148FE41146B62D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Roku Remote</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Roku Remote</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C43030599AF46A42CEBBFBE0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5A90967C132B662F65B04CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6353C6DEBD29AABADB10333</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SSDPServiceTypes.h</string>
-			<key>path</key>
-			<string>Classes/SSDPServiceTypes.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7DE7083CEB165AAB1694CB4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIProgressView+AFNetworking.m</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIProgressView+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C909D0F6EC176E6E7B9E698F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B428F307AA67E4FEFB8A2591</string>
-				<string>B6B5661C711269C9858D9E89</string>
-				<string>44EB6A60916150C5B26FA4A0</string>
-				<string>A8E9FEA9F7D52F8367E7A317</string>
-				<string>CA7C3561F62026C093030FB6</string>
-				<string>7B4A630FEDCA6FAF063EA0FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C91EFB44B952F3DE2D2B8E40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperationManager.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFHTTPRequestOperationManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA7C3561F62026C093030FB6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Security.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>CAE4AD31578E56C70130A6EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AsyncSocket.m</string>
-			<key>path</key>
-			<string>RunLoop/AsyncSocket.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB33784C0AF5A95441596CFF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Roku Remote-CocoaAsyncSocket-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD259A2AC1A724021D9B6847</key>
-		<dict>
-			<key>fileRef</key>
-			<string>136DFF38DC88FF257B71BF7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD6D33AD2546EEEA912BEC40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2813456863B2261BBE7D07DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD705141321FA0E7796C8867</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A6B9CE3DAD09F69C682EA1C9</string>
-				<string>F0DD5149419E440669F2AC37</string>
-				<string>D602125D11855EC4A552EC27</string>
-				<string>F9A842CF3E87ACE179C687FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CDAEC29C6AC9324BB45BB076</key>
+		<key>A75D9C3E1B8413B2974A312F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2574,16 +1982,12 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
 			<key>path</key>
-			<string>../Podfile</string>
+			<string>Pods-Roku Remote-acknowledgements.markdown</string>
 			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CE6EAC38599C2C37E3A5DC0E</key>
+		<key>A8366FD5586BE1C2F84AE4BD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2592,140 +1996,11 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Roku Remote-AFNetworking.xcconfig</string>
+			<string>Pods-Roku Remote-CocoaSSDP-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CF0B575402B2F79497B10223</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIWebView+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIWebView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D030605756245D9363A22D41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B6B5661C711269C9858D9E89</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D19FC7E6ADBA5280E6F986E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>25DE1B8748306F1E9E582D12</string>
-				<string>A47E236F0F7711A36DE8AF42</string>
-				<string>67535A847FCB5D14215F409D</string>
-				<string>C91EFB44B952F3DE2D2B8E40</string>
-				<string>091C180F3BF08FC587068356</string>
-				<string>8A32B447EA10D86D9BEFF455</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSURLConnection</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1A02CD34D79077946235329</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9C55FBCB54F96BAED647DBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D602125D11855EC4A552EC27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D31930DA3CEE0D59B563310</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6544450148F91BA17BE016F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>44EB6A60916150C5B26FA4A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D8777E10EC315E6D8560EB17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2CE62019E9C49A1005E8D25A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D993538532F8050918424D7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIActivityIndicatorView+AFNetworking.m</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA1EB7781283C71B51C41063</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFSecurityPolicy.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFSecurityPolicy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB796E4C06B5A4F8F510F6E2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F62B90C82E5BF445BECA7F44</string>
-				<string>F9C55FBCB54F96BAED647DBE</string>
-				<string>A5CE71797B9EE32B1E05F051</string>
-				<string>2CE62019E9C49A1005E8D25A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSURLSession</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFD70F785C70202F175DF295</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIActivityIndicatorView+AFNetworking.h</string>
-			<key>path</key>
-			<string>UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E09D34D7EEF7D3D0F9ADA387</key>
+		<key>A86528CE4E3E8FE7C5477B70</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2740,54 +2015,584 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E15E1459A2C1E633CD48591F</key>
+		<key>A95B6AEB106CEB9D7883BA39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>00AB8BE3E163F778EDE85181</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A98106194AF171B46E8F54F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GCDAsyncUdpSocket.m</string>
+			<key>path</key>
+			<string>GCD/GCDAsyncUdpSocket.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AB9D88CF93F63A5952157203</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFHTTPRequestOperation.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPRequestOperation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ABDEF4D62A5F719D01052A75</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+			<key>target</key>
+			<string>7BD49EE1D6EE712C972BA259</string>
+			<key>targetProxy</key>
+			<string>AD79520E4DA9DC5591586DBE</string>
+		</dict>
+		<key>AC2596AECD3B24ABDBE64F2F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5AA35BFE57315402BF2283E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ACDCA86040F9AE8C587456D6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FF55CEF30E60F879A9BC978</string>
+				<string>B61DA0E646C519C87F7212DE</string>
+				<string>1AC1EC6DB829BD138E5148D8</string>
+				<string>FD66C09410AEFE6169B99C55</string>
+				<string>3F7A42A2D25F4B7E61183464</string>
+				<string>D31D732FB2D896BE74EA8B23</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD79520E4DA9DC5591586DBE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>FB66B7280B8A8B044B96D1C9</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7BD49EE1D6EE712C972BA259</string>
+			<key>remoteInfo</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+		</dict>
+		<key>AEF8F471FFECECA29E32C1F3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>01BED32992F8B060508F310F</string>
+				<string>D0A75964B81C1B174F06B137</string>
+				<string>5CFAC2659C54DE6C73653905</string>
+				<string>4DCDDA545DEB4BB3F638F3F3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF0AE315F17DE6D2567F9C5F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFHTTPSessionManager.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPSessionManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B29345D1385B0C73DB05CE89</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Roku Remote-AFNetworking.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B3DBE2098758EAC0CBF2A662</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-CocoaSSDP-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3E76F06D2AA322CDF6F5BAD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7DFFD77176D80E9B46B2384</string>
+				<string>B29345D1385B0C73DB05CE89</string>
+				<string>82CBCD9282239B3AA5FF7B10</string>
+				<string>B4723241A5877E6ACDA7B8A4</string>
+				<string>8240FD558626E28893A3CFF2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B401950DED7CD3A225691703</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F7A42A2D25F4B7E61183464</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B4723241A5877E6ACDA7B8A4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Roku Remote-CocoaSSDP.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B4771FCDC1C1FBFB664028BB</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5FD292B856BB5F28ADC02959</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A575650192079834755D9941</string>
+				<string>A34622639435C0082F3394A9</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3BD1F14B5793222F5B8E06FA</string>
+				<string>ABDEF4D62A5F719D01052A75</string>
+				<string>1F0F67B73CD2785D58908A77</string>
+				<string>20148184B8849DEE5C879C1F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Roku Remote</string>
+			<key>productName</key>
+			<string>Pods-Roku Remote</string>
+			<key>productReference</key>
+			<string>E7DFFD77176D80E9B46B2384</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>B4E268629C28F212D2FF3F2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFNetworking.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5634E712158469DF7788663</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIProgressView+AFNetworking.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIProgressView+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B61DA0E646C519C87F7212DE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>B6326B8F8A1B5AFDA925ACB4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFURLResponseSerialization.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLResponseSerialization.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B743429C9DD11333F565394B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIRefreshControl+AFNetworking.m</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIRefreshControl+AFNetworking.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA1D907D3E990A201A5DAD09</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD9C6DD848736541582FB01D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BA489D5E0D1C6C61AA137A1B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1AC1EC6DB829BD138E5148D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BB4AEDB4124BC4CC7BC6515E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1BB77C11EB06856853EA6BAF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BCDE0969073BBD642C8E89B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-AFNetworking.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BD2ACE94585C2F8F47F9AB0E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>72C0C1EE87B7D9FFB8929FF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BD88EECA0406EB9AB10EB73D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>60BE983AEB703FA34EF5AD42</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BDB8952981DADA576D3198FF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-XMLDictionary-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BDE211AF2043DD0D56B9B5F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIActivityIndicatorView+AFNetworking.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C16DC28D4DAE6914E26B2655</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C255E83136363AC8609D5A98</key>
+		<dict>
+			<key>fileRef</key>
+			<string>75A10A4AEAE35DC8F7CA3C46</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C320189E13EB4D5FF75D1C3E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-CocoaSSDP-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3816EF0AEFB541B6C3BF1D1</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9FB74B4AAEBAD7572C6A786D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>46A3E63DBE21CA6A667C5C20</string>
+				<string>7C55AD4DD7F1709F5FA98824</string>
+				<string>E8F2F2B5002C8BC2E6495711</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3DAB494CB3532BC8BD01E521</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Roku Remote-CocoaSSDP</string>
+			<key>productName</key>
+			<string>Pods-Roku Remote-CocoaSSDP</string>
+			<key>productReference</key>
+			<string>B4723241A5877E6ACDA7B8A4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>C38898818557AA1AE357EB16</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>5C9B13562C76A932D0E2261C</string>
+				<string>2ED260DEB6F32CA1E4A125D5</string>
+				<string>BA1D907D3E990A201A5DAD09</string>
+				<string>CF3FB5D52DB1407A921FEE49</string>
+				<string>BD2ACE94585C2F8F47F9AB0E</string>
+				<string>E3AC42AFCF3CA30693C9B064</string>
+				<string>2935FC353FD6F08832A7010F</string>
+				<string>D8BAF06D2B20DF499FFD6537</string>
+				<string>1648DABC2B1BF8706CF7ECC9</string>
+				<string>DE77DF2D487E6F94CC8E889A</string>
+				<string>E7ABC4E56EF3804ED2969C2A</string>
+				<string>773D412CDE598CD879388539</string>
+				<string>FDA8CE3392E8AC94880E670C</string>
+				<string>F62AFCF61C66034A7BCD4988</string>
+				<string>183DCA3111AAABB622931925</string>
+				<string>186A0DA266155790D20EB533</string>
+				<string>63EE4324A13EEDBB88330676</string>
+				<string>0E21405AFB6238FF334F6030</string>
+				<string>133598CB60761FA0ECADB419</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>E228735CCA34D527C39B7DA1</key>
+		<key>C50F3049ED360E6E83B2EC04</key>
 		<dict>
 			<key>fileRef</key>
-			<string>08D482899F18ACD859DA0236</string>
+			<string>48A24738727EAED82AB16611</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EB7E4D716E3156BC2C57F4B3</key>
+		<key>C6E7F2EE1B34980FB4D16839</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C43030599AF46A42CEBBFBE0</string>
+			<string>CD2387B86B0262DE722E4539</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EB9B7374001634AF5FB0229B</key>
+		<key>C85F3F8EE4099A73D26BF550</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D030605756245D9363A22D41</string>
-				<string>4A044C90C5E318BD8CA3675D</string>
-				<string>4DD67802FAB301811B4280F5</string>
-				<string>41DC875905325E08356CA470</string>
-				<string>7C32D2A34A67D57B51F78A11</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-AFNetworking-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ECF43A631BB53F5027659B3C</key>
+		<key>CC975295C26B3A9B31BF4CED</key>
 		<dict>
 			<key>fileRef</key>
-			<string>59D090D2B21A68D64EDC17B7</string>
+			<string>9A0013EEC907355F7B4C8828</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CCF2CD66A43A0B9A19D90AFF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E57113362B4EA804E26DE65B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CD2387B86B0262DE722E4539</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFSecurityPolicy.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFSecurityPolicy.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD9C6DD848736541582FB01D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFHTTPRequestOperationManager.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPRequestOperationManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CDABD1BB12194938FC14C132</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFURLRequestSerialization.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFURLRequestSerialization.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF318D45DE9F58F44F438CE4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1B3186F2ADD5EC5002497851</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2796,7 +2601,37 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>EDFB84427386D03FA34C29FA</key>
+		<key>CF3FB5D52DB1407A921FEE49</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AF0AE315F17DE6D2567F9C5F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D0A75964B81C1B174F06B137</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0ED906F09440FBE372862486</string>
+				<string>6EA025FF5F5C427C9B43BAD6</string>
+				<string>9A0013EEC907355F7B4C8828</string>
+				<string>00B13061E0109C90D6BDCCE5</string>
+				<string>7AACB145FC73F2FD745B2A68</string>
+				<string>A3C13EF74D1834CF789D04BA</string>
+				<string>E35E077F5D5819969C478068</string>
+				<string>A98106194AF171B46E8F54F7</string>
+				<string>267F60E548F6BBD6DB4CFA31</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CocoaAsyncSocket</string>
+			<key>path</key>
+			<string>CocoaAsyncSocket</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D0A768DEFB67CFCBC09B5AC5</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -2858,29 +2693,106 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>F0DD5149419E440669F2AC37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25180BC33C6A600A299AF1E0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F14D0360302FE1EE30763D6A</key>
+		<key>D1A921968CFC0877486277E5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SSDPServiceBrowser.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Classes/SSDPServiceBrowser.h</string>
+			<string>Pods-Roku Remote-CocoaAsyncSocket-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F4CFF32397C2B749F858D9DC</key>
+		<key>D294BE424A864144C8BE9B22</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6DF77F062B3DB95D692935BD</string>
+				<string>A34F72E6B2F207A183117F64</string>
+				<string>63FAFA5CC30DBF11D8BB21CE</string>
+				<string>B401950DED7CD3A225691703</string>
+				<string>E70E84D9CD45D4181B65DD99</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D31D732FB2D896BE74EA8B23</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>D32A8E204181989DCCE75EFD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DE321E85F6B3EA77EBD6E67D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Roku Remote-AFNetworking/Pods-Roku Remote-AFNetworking-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D36ACB38A3F0A3908B168C74</key>
+		<dict>
+			<key>fileRef</key>
+			<string>728FBDBCA0895A707ACD3FC0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D540E01237DD0CB232815F6A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2889,31 +2801,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>UIWebView+AFNetworking.m</string>
+			<string>SSDPService.m</string>
 			<key>path</key>
-			<string>UIKit+AFNetworking/UIWebView+AFNetworking.m</string>
+			<string>Classes/SSDPService.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F62B90C82E5BF445BECA7F44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHTTPSessionManager.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFHTTPSessionManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F71E74D8DD033D3FCD9D90C7</key>
+		<key>D71DB3B840897FF67ABA4B76</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0D6014F4370EF958BDA86746</string>
+			<string>6A28D33B28F687DE60A30EFD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2922,22 +2819,93 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>F73BDAFE09D185E83BE83FB1</key>
+		<key>D77055CDE202B3C5AFEAEE84</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ACDCA86040F9AE8C587456D6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D881DF1534825306FB7D2ABC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UIRefreshControl+AFNetworking.m</string>
+			<string>UIButton+AFNetworking.h</string>
 			<key>path</key>
-			<string>UIKit+AFNetworking/UIRefreshControl+AFNetworking.m</string>
+			<string>UIKit+AFNetworking/UIButton+AFNetworking.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F7D4F0E6923C93322FEB06E8</key>
+		<key>D8BAF06D2B20DF499FFD6537</key>
+		<dict>
+			<key>fileRef</key>
+			<string>71A62FF151028B3B414D657E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8DC0FDBD8D750945125CBE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-CocoaSSDP.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D981870BDD25A1BBC4BB2378</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8DC0FDBD8D750945125CBE0</string>
+				<string>A8366FD5586BE1C2F84AE4BD</string>
+				<string>B3DBE2098758EAC0CBF2A662</string>
+				<string>C320189E13EB4D5FF75D1C3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Roku Remote-CocoaSSDP</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE321E85F6B3EA77EBD6E67D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-AFNetworking-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE77DF2D487E6F94CC8E889A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B6326B8F8A1B5AFDA925ACB4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E35E077F5D5819969C478068</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2952,21 +2920,183 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F804BA79E93CE23C81364618</key>
+		<key>E3AC42AFCF3CA30693C9B064</key>
 		<dict>
 			<key>fileRef</key>
-			<string>358E36E8A6FFDD800C077073</string>
+			<string>3275981408EDFACD49A44AFD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F9A842CF3E87ACE179C687FE</key>
+		<key>E3F0A526218CC5CCAB92EF05</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9E3286743B3B47D69421ECA9</string>
+				<string>9EA90A6303DB8CB925D62F1E</string>
+				<string>818AC16D1D8B44A4527B8EC8</string>
+				<string>80240A84FC409FC11B2A4781</string>
+				<string>C255E83136363AC8609D5A98</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E4646C4CCA7D0AB5FB041E8B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>FB66B7280B8A8B044B96D1C9</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7BD49EE1D6EE712C972BA259</string>
+			<key>remoteInfo</key>
+			<string>Pods-Roku Remote-CocoaAsyncSocket</string>
+		</dict>
+		<key>E57113362B4EA804E26DE65B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E61DBD2F7011F674DDEAD67D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-XMLDictionary-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E70E84D9CD45D4181B65DD99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F7D4F0E6923C93322FEB06E8</string>
+			<string>D31D732FB2D896BE74EA8B23</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F9C55FBCB54F96BAED647DBE</key>
+		<key>E7ABC4E56EF3804ED2969C2A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0E9DC4B7E600EFF156F0C0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7B302ABA4947DDDDB261BA9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImageView+AFNetworking.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/UIImageView+AFNetworking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7DFFD77176D80E9B46B2384</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Roku Remote.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E8F2F2B5002C8BC2E6495711</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>841ACA5B785D74E76A588914</string>
+				<string>8DEC04485188A3CB980E2986</string>
+				<string>0E5E9ADF295853E72C1EFBD3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EA8CF0D5EA0ADAE051630753</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Roku Remote-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EABFEFA2DCECE3573FDB40BD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFHTTPSessionManager.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPSessionManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EBA6DF0373205F7280078B24</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7AACB145FC73F2FD745B2A68</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EF5BB612B20A5693D030CFAF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FF55CEF30E60F879A9BC978</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFDDD647309433565590E158</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A86528CE4E3E8FE7C5477B70</string>
+				<string>3275981408EDFACD49A44AFD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Reachability</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0E9DC4B7E600EFF156F0C0F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2975,35 +3105,274 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AFHTTPSessionManager.m</string>
+			<string>AFURLSessionManager.m</string>
 			<key>path</key>
-			<string>AFNetworking/AFHTTPSessionManager.m</string>
+			<string>AFNetworking/AFURLSessionManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FAE0F39EBB1EE6DD245355D5</key>
+		<key>F1BFC41F616FD1A083D964B4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4F6435C5ABA37C7F8E5C3E14</string>
+				<string>113D74B6738B80DC75F2AFB2</string>
+				<string>BDB8952981DADA576D3198FF</string>
+				<string>E61DBD2F7011F674DDEAD67D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Roku Remote-XMLDictionary</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F62AFCF61C66034A7BCD4988</key>
 		<dict>
 			<key>fileRef</key>
-			<string>31A3F19D1265713147E194EC</string>
+			<string>2AB743A60B475520513F1955</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FE15F2D31D5E91BB6AE891D2</key>
+		<key>F65DA43E6EFE084F749237CF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5C316E081FBAC70A65715884</string>
+			<string>B4E268629C28F212D2FF3F2E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FF85FB4189784F6B69560B09</key>
+		<key>F69B18F71124FBC5C0BAAC59</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFNetworkActivityIndicatorManager.h</string>
+			<key>path</key>
+			<string>UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F908BA42DB8DD3D79C4099C3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Roku Remote.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F94DF011812AFBEA0A7D02AE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>113D74B6738B80DC75F2AFB2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Roku Remote-XMLDictionary/Pods-Roku Remote-XMLDictionary-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>FAC3691E5F3C4F9B9938017E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2387B86B0262DE722E4539</string>
+				<string>3A2B27189233E1C6CBA8B3D7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Security</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FAFE45D24FE22519C508EBC0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7D4AB4D7F916E4BCD0979D76</string>
+				<string>D0A768DEFB67CFCBC09B5AC5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FB66B7280B8A8B044B96D1C9</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>FAFE45D24FE22519C508EBC0</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>35B16D5B2BEFE6A3D4E9FB38</string>
+			<key>productRefGroup</key>
+			<string>B3E76F06D2AA322CDF6F5BAD</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>B4771FCDC1C1FBFB664028BB</string>
+				<string>5BBBC5644ACBBB11129C801A</string>
+				<string>7BD49EE1D6EE712C972BA259</string>
+				<string>C3816EF0AEFB541B6C3BF1D1</string>
+				<string>8F2F19C250368B35BBF5677A</string>
+			</array>
+		</dict>
+		<key>FD3B9BD04C65C25E373DBC5F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DE321E85F6B3EA77EBD6E67D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Roku Remote-AFNetworking/Pods-Roku Remote-AFNetworking-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FD66C09410AEFE6169B99C55</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MobileCoreServices.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>FDA8CE3392E8AC94880E670C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>67535A847FCB5D14215F409D</string>
+			<string>0C4835AE1789261347839F5D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>FDBB8CD1106DA3A0052FDFE7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BA489D5E0D1C6C61AA137A1B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>A2B3BB2B56AC473F590351FB</string>
+	<string>FB66B7280B8A8B044B96D1C9</string>
 </dict>
 </plist>

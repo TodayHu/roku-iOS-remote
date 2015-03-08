@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3816EF0AEFB541B6C3BF1D1"
-               BuildableName = "libPods-Roku Remote-CocoaSSDP.a"
-               BlueprintName = "Pods-Roku Remote-CocoaSSDP"
+               BlueprintIdentifier = "8F2F19C250368B35BBF5677A"
+               BuildableName = "libPods-Roku Remote-XMLDictionary.a"
+               BlueprintName = "Pods-Roku Remote-XMLDictionary"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

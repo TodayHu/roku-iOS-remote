@@ -1,12 +1,10 @@
 //
-//  Roku.h
+//  RokuWatchHelpers.h
 //  Roku Remote
 //
-//  Created by Tyler J Nettleton on 3/6/15.
+//  Created by Tyler J Nettleton on 3/7/15.
 //  Copyright (c) 2015 Tyler J Nettleton. All rights reserved.
 //
-
-#import <Foundation/Foundation.h>
 
 // Roku Keypress definitions
 #define kRokuKeyHome            @"home"
@@ -25,20 +23,11 @@
 #define kRokuKeySearch          @"search"
 #define kRokuKeyEnter           @"enter"
 
-typedef void (^applicationsLoadedHandler)(NSArray *);
-
-@class RokuController;
-@class RokuApp;
-
-@interface Roku : NSObject
-
-+ (instancetype)rokuWithURL:(NSURL *)url port:(NSUInteger)port;
-
-- (void)getApplicationsFromRokuWith:(RokuController *)controller
-                         andHandler:(applicationsLoadedHandler)handler;
-- (BOOL)sendKeyEvent:(NSString *)keyEvent;
-- (void)launchApp:(RokuApp *)app;
-
-- (NSURL *)rokuURL;
-
-@end
+// API methods
+#define kRequestTypeKey             @"kRequestTypeKey"
+#define kResponseTypeKey            @"response_type"
+#define kResponseDataKey            @"response_data"
+#define kRequestTypeApplications    @"kRequestTypeApplications"
+#define kRequestTypeLaunchApp       @"kRequestTypeLaunchApp"
+#define kAppIDKey                   @"kAppIDKey"
+#define kResponseTypeApplication    @"kResponseTypeApplication"

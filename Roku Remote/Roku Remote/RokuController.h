@@ -11,6 +11,8 @@
 @class Roku;
 
 typedef void (^watchRequestHandler)(NSDictionary*);
+typedef void (^applicationsFetchedHandler)();
+
 
 @interface RokuController : NSObject
 
@@ -18,6 +20,11 @@ typedef void (^watchRequestHandler)(NSDictionary*);
 
 - (void)setRokuAsDefaultRoku:(Roku *)roku;
 
-- (void)handleActionRequestFromWatch:(NSDictionary *)request withHandler:(void (^)(NSDictionary *))handler;
+- (void)handleActionRequestFromWatch:(NSDictionary *)request
+                         withHandler:(void (^)(NSDictionary *))handler;
+
+- (void)getRokuApplicationsWithCompletionHandler:(applicationsFetchedHandler)handler;
+
+- (NSArray *)applications;
 
 @end

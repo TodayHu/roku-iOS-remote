@@ -10,6 +10,7 @@
 #import "RokuDiscovery.h"
 #import "RokuController.h"
 #import "Roku.h"
+#import "RokuApp.h"
 
 @interface ViewController () <RokuDiscoveryDelegate>
 
@@ -41,6 +42,15 @@
     NSLog(@"Roku found %@", [self.rokuDiscovery devices]);
     Roku *roku = [[self.rokuDiscovery devices] objectAtIndex:0];
     [self.rokuController setRokuAsDefaultRoku:roku];
+    
+    [self.rokuController getRokuApplicationsWithCompletionHandler:^() {
+        NSArray *applications = [self.rokuController applications];
+        
+        for (RokuApp *app in applications)
+        {
+            NSLog(@"App %@", app.appDisplayName);
+        }
+    }];
 
 }
 
