@@ -7,24 +7,42 @@
 //
 
 #import "RootInterfaceController.h"
- #import "RokuWatchController.h"
+#import "RokuWatchController.h"
+#import "RokuWatchHelpers.h"
+
+@interface RootInterfaceController ()
+
+- (IBAction)homeKeyPressed:(id)sender;
+
+@end
 
 @implementation RootInterfaceController
 
-- (void)awakeWithContext:(id)context {
+- (void)awakeWithContext:(id)context
+{
     [super awakeWithContext:context];
     
     self.rokuController = [RokuWatchController watchController];
-    
 }
 
-- (void)willActivate {
-    
+- (void)willActivate
+{
     [super willActivate];
 }
 
-- (void)didDeactivate {
-    
+#pragma mark - IBAction
+
+- (IBAction)homeKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeyHome withCompletionHandler:^() {
+        
+    }];
+}
+
+
+
+- (void)didDeactivate
+{
     [super didDeactivate];
 }
 

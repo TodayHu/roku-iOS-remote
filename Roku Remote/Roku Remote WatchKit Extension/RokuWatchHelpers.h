@@ -31,3 +31,6 @@
 #define kRequestTypeLaunchApp       @"kRequestTypeLaunchApp"
 #define kAppIDKey                   @"kAppIDKey"
 #define kResponseTypeApplication    @"kResponseTypeApplication"
+
+#define kRequestTypeKeyPress        @"kRequestTypeKeyPress"
+#define kKeyType                    @"kKeyType"

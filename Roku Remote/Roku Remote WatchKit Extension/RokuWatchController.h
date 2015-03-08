@@ -18,9 +18,11 @@ typedef void (^completionHandler)();
 +(instancetype)watchController;
 
 // Application Fetching
-
 - (void)fetchRokuApplicationsWithCompletionHandler:(applicationsFetchedHandler)handler;
 - (void)openApplicationAtIndex:(NSUInteger)index withCompletionHandler:(completionHandler)handler;
 - (NSArray *)rokuApplications;
+
+// Key Commands
+- (void)sendKeyPress:(NSString *)key withCompletionHandler:(completionHandler)handler;
 
 @end

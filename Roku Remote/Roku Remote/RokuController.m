@@ -21,6 +21,8 @@
 #define kRequestTypeLaunchApp       @"kRequestTypeLaunchApp"
 #define kAppIDKey                   @"kAppIDKey"
 
+#define kRequestTypeKeyPress        @"kRequestTypeKeyPress"
+#define kKeyType                    @"kKeyType"
 
 @interface RokuController ()
 
@@ -64,9 +66,20 @@
     {
         [self launchApplicationFromIdentifier:[[request objectForKey:kAppIDKey] intValue] withHandler:handler];
     }
+    
+    if ([requestType isEqualToString:kRequestTypeKeyPress])
+    {
+        [self handleKeyPressRequestFromWatch:[request objectForKey:kKeyType] withHandler:handler];
+    }
 }
 
 #pragma mark - Watch Interface API
+
+- (void)handleKeyPressRequestFromWatch:(NSString *)key withHandler:(void (^)(NSDictionary *))handler
+{
+    [self.currentRoku sendKeyEvent:key];
+    handler(nil);
+}
 
 - (void)launchApplicationFromIdentifier:(NSUInteger)identifier
                             withHandler:(void (^)(NSDictionary *))handler

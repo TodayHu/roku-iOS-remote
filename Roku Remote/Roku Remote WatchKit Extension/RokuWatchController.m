@@ -42,6 +42,16 @@
 
 #pragma mark - Parent Application communications
 
+- (void)sendKeyPress:(NSString *)key withCompletionHandler:(completionHandler)handler
+{
+    NSDictionary *requestDictionary = [NSDictionary dictionaryWithObjectsAndKeys:kRequestTypeKeyPress, kRequestTypeKey, key, kKeyType, nil];
+    
+    [WKInterfaceController openParentApplication:requestDictionary reply:^(NSDictionary *requestResponse, NSError *error)
+     {
+         handler();
+     }];
+}
+
 - (void)fetchRokuApplicationsWithCompletionHandler:(applicationsFetchedHandler)handler
 {
     NSDictionary *requestDictionary = [NSDictionary dictionaryWithObjectsAndKeys:kRequestTypeApplications, kRequestTypeKey, nil];
