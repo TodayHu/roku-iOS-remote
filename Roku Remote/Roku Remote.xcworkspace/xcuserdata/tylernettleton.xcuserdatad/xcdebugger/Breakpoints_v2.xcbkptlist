@@ -10,28 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Roku Remote WatchKit Extension/Watch/AppInterfaceController.m"
-            timestampString = "447452589.231819"
+            timestampString = "447466709.647916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "-awakeWithContext:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Roku Remote/RokuController.m"
-            timestampString = "447453270.720251"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "-handleActionRequestFromWatch:withHandler:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

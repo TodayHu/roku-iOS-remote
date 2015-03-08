@@ -10,17 +10,10 @@
 #import "ApplicationRowController.h"
 #import <QuartzCore/QuartzCore.h>
 
+#import "RokuWatchController.h"
 #import "RokuApp.h"
 
-#define kRequestTypeKey             @"kRequestTypeKey"
-#define kResponseTypeKey            @"response_type"
-#define kResponseDataKey            @"response_data"
-#define kRequestTypeApplications    @"kRequestTypeApplications"
 
-#define kRequestTypeLaunchApp       @"kRequestTypeLaunchApp"
-#define kAppIDKey                   @"kAppIDKey"
-
-#define kResponseTypeApplication    @"kResponseTypeApplication"
 
 @interface AppInterfaceController()
 
@@ -36,7 +29,17 @@
 {
     [super awakeWithContext:context];
     
-    [self loadApplications];
+    // Context should be an instance of RokuWatchController
+    if ([context isKindOfClass:[RokuWatchController class]])
+    {
+        self.rokuController = context;
+        
+        [self.rokuController fetchRokuApplicationsWithCompletionHandler:^()
+        {
+            _applications = self.rokuController.rokuApplications;
+            [self populateTable];
+        }];
+    }
 }
 
 - (void)willActivate
@@ -45,13 +48,13 @@
 }
 
 
+#pragma mark - Table controller
+
 - (void)populateTable
 {
-    [self.applicationTable setNumberOfRows:[self.applications count] withRowType:@"AppRow"];
-    
+    [self.applicationTable setNumberOfRows:[self.applications count] withRowType:[AppInterfaceController applicationRowType]];
     
     [self.applications enumerateObjectsUsingBlock:^(RokuApp *app, NSUInteger index, BOOL *stop) {
-       
         ApplicationRowController *row = [self.applicationTable rowControllerAtIndex:index];
         [row.appNameLabel setText:app.appDisplayName];
         [row.appIconImage setImage:app.appIconImage];
@@ -59,52 +62,23 @@
     }];
 }
 
-
-- (void)loadApplications
-{
-    NSDictionary *requestDictionary = [NSDictionary dictionaryWithObjectsAndKeys:kRequestTypeApplications, kRequestTypeKey, nil];
-    
-    [WKInterfaceController openParentApplication:requestDictionary reply:^(NSDictionary *requestResponse, NSError *error)
-     {
-         NSMutableArray *applications = [NSMutableArray new];
-         
-         NSString *responseType = [requestResponse objectForKey:kResponseTypeKey];
-         
-         if ([responseType isEqualToString:kResponseTypeApplication])
-         {
-             NSArray *applicationsData = [requestResponse objectForKey:kResponseDataKey];
-             
-             for (NSData *applicationData in applicationsData)
-             {
-                 RokuApp *app = [NSKeyedUnarchiver unarchiveObjectWithData:applicationData];
-                 [applications addObject:app];
-             }
-             _applications = [NSArray arrayWithArray:applications];
-             
-             [self populateTable];
-         }
-         
-     }];
-}
-
 - (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex
 {
-    RokuApp *appAtIndex = [self.applications objectAtIndex:rowIndex];
-    
-    NSDictionary *requestDictionary = [NSDictionary dictionaryWithObjectsAndKeys:kRequestTypeLaunchApp, kRequestTypeKey, [NSNumber numberWithInteger:appAtIndex.appID], kAppIDKey, nil];
-    
-    NSLog(@"request %@", requestDictionary);
-    
-    
-    [WKInterfaceController openParentApplication:requestDictionary reply:^(NSDictionary *responseDict, NSError *error) {
-       
+    [self.rokuController openApplicationAtIndex:rowIndex withCompletionHandler:^()
+    {
+       [self dismissController];
     }];
-    
-    [self dismissController];
 }
 
-- (void)didDeactivate {
-    // This method is called when watch view controller is no longer visible
+#pragma mark - Private
+
++ (NSString *)applicationRowType
+{
+    return @"AppRow";
+}
+
+- (void)didDeactivate
+{
     [super didDeactivate];
 }
 

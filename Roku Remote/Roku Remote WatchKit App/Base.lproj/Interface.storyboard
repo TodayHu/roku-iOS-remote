@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
-        <!--Roku Base Interface Controller-->
+        <!--Root Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="RokuBaseInterfaceController"/>
+                <controller id="AgC-eL-Hgc" customClass="RootInterfaceController"/>
             </objects>
             <point key="canvasLocation" x="300" y="150"/>
         </scene>
@@ -41,7 +41,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="540" y="346"/>
+            <point key="canvasLocation" x="300" y="440"/>
         </scene>
     </scenes>
 </document>

@@ -62,18 +62,20 @@
     
     if ([requestType isEqualToString:kRequestTypeLaunchApp])
     {
-        [self launchApplicationFromIdentifier:[[request objectForKey:kAppIDKey] intValue]];
+        [self launchApplicationFromIdentifier:[[request objectForKey:kAppIDKey] intValue] withHandler:handler];
     }
 }
 
 #pragma mark - Watch Interface API
 
 - (void)launchApplicationFromIdentifier:(NSUInteger)identifier
+                            withHandler:(void (^)(NSDictionary *))handler
 {
     for (RokuApp *app in self.rokuApplications) {
         if (app.appID == identifier)
         {
             [self.currentRoku launchApp:app];
+            handler(nil);
         }
     }
 }

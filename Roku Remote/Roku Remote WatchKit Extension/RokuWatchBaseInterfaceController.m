@@ -1,33 +1,26 @@
 //
-//  RokuBaseInterfaceController.m
+//  RokuWatchBaseInterfaceController.m
 //  Roku Remote
 //
-//  Created by Tyler J Nettleton on 3/6/15.
+//  Created by Tyler J Nettleton on 3/7/15.
 //  Copyright (c) 2015 Tyler J Nettleton. All rights reserved.
 //
 
-#import "RokuBaseInterfaceController.h"
-#import "AppInterfaceController.h"
+#import "RokuWatchBaseInterfaceController.h"
 
-@interface RokuBaseInterfaceController()
+#import "RokuWatchController.h"
 
-@property (nonatomic, strong) id context;
+@interface RokuWatchBaseInterfaceController()
 
 @end
 
 
-@implementation RokuBaseInterfaceController
+@implementation RokuWatchBaseInterfaceController
 
-- (void)awakeWithContext:(id)context
-{
+- (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
     
-    
-    _context = context;
-    
     [self constructContextMenu];
-    
-    
 }
 
 - (void)constructContextMenu
@@ -49,19 +42,17 @@
                            action:@selector(showAboutInterface)];
 }
 
-
-
-
 #pragma mark - Actions
 
 - (void)showRemoteInterface
 {
-
+    
 }
 
 - (void)showAppSelectionInterface
 {
-    [self presentControllerWithName:@"AppInterfaceController" context:nil];
+    [self presentControllerWithName:@"AppInterfaceController"
+                            context:self.rokuController];
 }
 
 - (void)showSettingsInterface
@@ -73,6 +64,7 @@
 {
     
 }
+
 
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user

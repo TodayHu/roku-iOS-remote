@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <WatchKit/WatchKit.h>
 
-@interface ApplicationRowController : NSObject
+#import "RokuWatchBaseObject.h"
+
+@interface ApplicationRowController : RokuWatchBaseObject
 
 @property (nonatomic, weak) IBOutlet WKInterfaceImage *appIconImage;
 @property (nonatomic, weak) IBOutlet WKInterfaceLabel *appNameLabel;
