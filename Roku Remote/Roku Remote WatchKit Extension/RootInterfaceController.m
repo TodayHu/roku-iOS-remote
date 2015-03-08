@@ -14,6 +14,14 @@
 
 - (IBAction)homeKeyPressed:(id)sender;
 
+- (IBAction)playKeyPressed:(id)sender;
+- (IBAction)pauseKeyPressed:(id)sender;
+- (IBAction)upKeyPressed:(id)sender;
+- (IBAction)downKeyPressed:(id)sender;
+- (IBAction)leftKeyPressed:(id)sender;
+- (IBAction)rightKeyPressed:(id)sender;
+- (IBAction)selectKeyPressed:(id)sender;
+
 @end
 
 @implementation RootInterfaceController
@@ -39,6 +47,47 @@
     }];
 }
 
+- (IBAction)playKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeyPlay withCompletionHandler:^() {
+        
+    }];
+}
+
+- (IBAction)upKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeyUp withCompletionHandler:^() {
+        
+    }];
+}
+
+- (IBAction)downKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeyDown withCompletionHandler:^() {
+        
+    }];
+}
+
+- (IBAction)leftKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeyLeft withCompletionHandler:^() {
+        
+    }];
+}
+
+- (IBAction)rightKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeyRight withCompletionHandler:^() {
+        
+    }];
+}
+
+- (IBAction)selectKeyPressed:(id)sender
+{
+    [self.rokuController sendKeyPress:kRokuKeySelect withCompletionHandler:^() {
+        
+    }];
+}
 
 
 - (void)didDeactivate

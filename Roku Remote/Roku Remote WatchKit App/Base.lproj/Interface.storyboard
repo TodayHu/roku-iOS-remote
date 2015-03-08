@@ -10,9 +10,39 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="RootInterfaceController">
                     <items>
-                        <button width="1" alignment="left" verticalAlignment="bottom" title="Home" id="nO6-CX-PLL">
+                        <button width="1" alignment="left" title="Play/Pause" id="0rF-Pn-31i">
                             <connections>
-                                <action selector="homeKeyPressed:" destination="AgC-eL-Hgc" id="Eww-6s-n5R"/>
+                                <action selector="playKeyPressed:" destination="AgC-eL-Hgc" id="a3y-8z-H3O"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Up" id="yFs-BB-kBw">
+                            <connections>
+                                <action selector="upKeyPressed:" destination="AgC-eL-Hgc" id="jV4-FC-5Rf"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Down" id="K6S-W1-6gB">
+                            <connections>
+                                <action selector="downKeyPressed:" destination="AgC-eL-Hgc" id="KuK-zU-rCE"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Left" id="8ms-2X-c4S">
+                            <connections>
+                                <action selector="leftKeyPressed:" destination="AgC-eL-Hgc" id="Mrr-SC-mnN"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Right" id="Uqh-jz-vKh">
+                            <connections>
+                                <action selector="rightKeyPressed:" destination="AgC-eL-Hgc" id="tMa-vL-hBV"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Select" id="Vkq-sj-m5d">
+                            <connections>
+                                <action selector="selectKeyPressed:" destination="AgC-eL-Hgc" id="olB-pS-X12"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Home" id="RdC-l9-YKL">
+                            <connections>
+                                <action selector="homeKeyPressed:" destination="AgC-eL-Hgc" id="u9H-FG-Dxb"/>
                             </connections>
                         </button>
                     </items>

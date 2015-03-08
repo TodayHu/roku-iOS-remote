@@ -33,9 +33,9 @@
                             title:@"Apps"
                            action:@selector(showAppSelectionInterface)];
     
-    [self addMenuItemWithItemIcon:WKMenuItemIconTrash
-                            title:@"Settings"
-                           action:@selector(showSettingsInterface)];
+    [self addMenuItemWithItemIcon:WKMenuItemIconBlock
+                            title:@"Search"
+                           action:@selector(showSearch)];
     
     [self addMenuItemWithItemIcon:WKMenuItemIconInfo
                             title:@"About"
@@ -58,6 +58,10 @@
 - (void)showSettingsInterface
 {
     
+}
+
+- (void)showSearch
+{
 }
 
 - (void)showAboutInterface
