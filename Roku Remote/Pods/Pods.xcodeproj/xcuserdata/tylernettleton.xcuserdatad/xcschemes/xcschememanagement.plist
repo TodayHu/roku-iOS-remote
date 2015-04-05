@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Roku Remote-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Roku Remote-CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Roku Remote-CocoaSSDP.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Roku Remote-XMLDictionary.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Roku Remote.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5BBBC5644ACBBB11129C801A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BD49EE1D6EE712C972BA259</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F2F19C250368B35BBF5677A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4771FCDC1C1FBFB664028BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3816EF0AEFB541B6C3BF1D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
